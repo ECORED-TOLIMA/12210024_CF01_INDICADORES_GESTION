@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 60%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 70%
+    right: 20%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 26%
+    right: 0%
 
 @keyframes float1
   0%
@@ -25,8 +30,333 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+.row.justify-content-center.align-items-center.py-5.position-relative
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+.row.justify-content-center.align-items-center.py-5.position-relative
+  background-image: url("../assets/curso/Temas/tema3/imgbaner.png") !important
+
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.cajon.color-acento-botones.p-4.col
+  background-color: #E9EAEF
+
+.cajon.p-4.col
+  background-color: #FCAE57
+
+.cajon.color.p-4.col
+  background-color: #FEE7CC
+
+.row.justify-content-center.align-items-center.mb-5
+  background-color: #FFF7EE
+  border-radius: 20px
+
+.row.justify-content-center.align-items-center.mb-5.color
+  background-color: #DEEAF1
+  order-radius: 0px
+
+.row.justify-content-center.align-items-center.mb-6
+  background-color: #DEEAF1
+
+
+
+// --- VARIABLES DE COLOR (Ajusta el verde según tu paleta exacta) ---
+$verde-botones: #B1EC6F // El verde amarillento de la imagen
+$fondo-blanco-transp: rgba(255, 255, 255, 0.95)
+$texto-negro: #000
+$verde-claro-fondo: #E8F5D2 // El fondo suave de las tarjetas
+$verde-boton: #B1EC6F
+$verde-claro: #E8F5D2 // Fondo de los items cerrados
+$verde-indicador: #B1EC6F // El círculo de la letra
+$azul-contenido: #DEE9F0 // Fondo del contenido cuando está abierto
+$color-borde-active: #0540B1 // Borde azul del item activo
+$azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
+
+.tarjeta--azul-suave
+  background-color: $azul-fondo-tarjeta
+  border-radius: 20px
+  
+  .row
+    align-items: flex-start // Asegura que el icono naranja se alinee arriba si el texto es largo
+  
+  p
+    color: #000 !important
+    line-height: 1.5em
+
+.tarjeta.color-primario.p-4.h-100
+  background-color: #DEEAF1
+  h4, p
+    color: $texto-negro !important
+
+.tarjeta.tarjeta--azul.p-4
+  // 1. FONDO DE LA TARJETA PRINCIPAL
+  background-image: url('../assets/curso/portada/fondo-banner-principal.png') 
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  border: none
+
+  // 2. CONTENEDOR INTERIOR Y TEXTOS
+  .slyder-a
+    .row
+      background-color: $fondo-blanco-transp
+      border-radius: 20px
+      padding: 2.5rem
+      margin: 1.5rem 0
+    
+    // Forzado de color negro para títulos y párrafos
+    h5, p
+      color: $texto-negro !important
+
+  // 3. PERSONALIZACIÓN DE BOTONES (FLECHAS)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $verde-botones !important
+    opacity: 1
+    border: none
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.15)
+    
+    &:hover
+      background-color: darken($verde-botones, 7%) !important
+
+  // 4. PERSONALIZACIÓN DE PUNTOS INDICADORES (BULLETS)
+  .slyder-a__bullets
+    .slyder-a__bullets__item
+      background-color: rgba($verde-botones, 0.4) // Punto inactivo
+      border: none
+      margin: 0 6px
+      width: 13px
+      height: 13px
+      transition: background-color 0.3s ease
+
+      &--active
+        background-color: $verde-botones !important // Punto activo
+        border: none
+        opacity: 1
+.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+  background-color: #E9EAEF
+.bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+  background-color: #E9EAEF
+
+.tarjeta.tarjeta-verde
+  background-color: $verde-claro-fondo
+  transition: background-color 0.3s ease
+  
+  // Cuando el acordeón está abierto, cambia a un tono sutilmente distinto o azulado como en tu imagen
+  &.acordion__activo
+    background-color: #E2E9F0 // El tono azulado grisáceo que se ve en el primer ítem abierto
+
+.acordion
+  .acordion__header
+    h3
+      color: $texto-negro !important
+      font-weight: bold
+    
+  // Personalización del botón (el círculo con la flecha)
+  .acordion__accion__btn--a
+    background-color: $verde-boton !important
+    border: none
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1)
+    
+    i
+      color: $texto-negro !important // Color de la flecha interna
+
+  // Contenido interno del acordeón
+  .acordion__contenido
+    p, li, b
+      color: $texto-negro !important
+
+.tabla-a.color-acento-contenido
+  thead
+    border-top: 0px
+    th
+      background-color: #f8da92ff !important // Verde menta (Encabezado)
+      color: #12263F !important
+      border: none
+
+.linea-tiempo-d.color-secundario
+  .linea-tiempo-d__item
+    .linea-tiempo-d__item__number
+      background-color: $verde-indicador !important
+      color: #000 !important
+      font-weight: bold
+    
+    .linea-tiempo-d__item__content
+      background-color: $verde-claro !important
+      border-radius: 5px
+      
+      .linea-tiempo-d__item__content__title
+        color: #000 !important
+        font-weight: bold
+
+    // Estado cuando el item está abierto (Active)
+    &.linea-tiempo-d__item--accent
+      .linea-tiempo-d__item__content
+        background-color: $azul-contenido !important
+        border: 2px solid $color-borde-active
+        
+        .linea-tiempo-d__item__content__slot
+          p
+            color: #000 !important
+
+  // Línea punteada lateral
+  .linea-tiempo-d__item__dots:after
+    border-left: 3px dotted #ADB5BD
+
+// --- VARIABLES DE COLOR MATRIZ FODA ---
+$naranja-foda: #F9B252
+$crema-encabezado: #FEE3C4
+$crema-lateral: #FEEFD2
+$borde-tabla: #E1E1E1
+
+.tabla-a.color-acento-contenido
+  table
+    border: none
+  
+  // Clase para el bloque principal "Matriz FODA"
+  .bg-naranja
+    background-color: $naranja-foda !important
+    border: 1px solid $borde-tabla
+    color: #12263F !important
+    font-weight: 900
+
+  // Clase para los encabezados superiores (Factores internos)
+  .bg-crema-oscuro
+    background-color: $crema-encabezado !important
+    border: 1px solid $borde-tabla
+    color: #12263F
+
+  // Clase para la columna izquierda (Factores externos)
+  .bg-crema-claro
+    background-color: $crema-lateral !important
+    border: 1px solid $borde-tabla
+    color: #12263F
+
+  .bg-white
+    background-color: #FFFFFF !important
+    border: 1px solid $borde-tabla
+    color: #12263F
+
+  td, th
+    padding: 20px !important
+    vertical-align: middle
+$verde-claro-tabs: #E8F5D2
+$verde-activo-tabs: #B1EC6F
+$azul-borde-tabs: #12263F
+
+.tabs-c.color-primario
+  border-bottom: 0px
+  
+  .tabs-c__header
+    margin-bottom: 20px
+    
+  .tabs-c__tab
+    background-color: $verde-claro-tabs
+    border-right: 2px solid white
+    span
+      font-weight: bold
+      color: #12263F
+    
+    &:after
+      width: 0 // Quitamos la línea por defecto si prefieres el estilo de la imagen
+      
+    &--active
+      background-color: #FFF !important
+      border-bottom: 4px solid $verde-activo-tabs !important
+      span
+        color: $azul-borde-tabs
+  
+  .text-verde-check
+    color: #4CAF50 // Verde para los iconos de la lista
+
+// --- CUSTOM PARA TARJETAS SLYDERF (SINTAXIS SASS) ---
+
+.tarjeta-blanca-custom
+  background-color: #FFFFFF !important
+  border-radius: 20px !important
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05)
+  height: 100%
+  display: flex
+  flex-direction: column
+  transition: all 0.3s ease-in-out
+
+  &:hover
+    transform: translateY(-5px)
+    box-shadow: 0px 8px 20px rgba(59, 97, 209, 0.15)
+
+  h4
+    color: #12263F
+    font-weight: 700
+    margin-bottom: 0.5rem
+
+  p
+    color: #636363
+    line-height: 1.4
+
+  .col-6
+    img
+      width: 100%
+      height: auto
+      max-width: 80px
+.tarjeta-avatar
+  p 
+    font-size: 15px
+    margin-top: 5px
+
+// Paleta de colores personalizada para el contenedor de tarjetas
+.color-primario-oscuro
+  background-color: #3C4B6B !important 
+
+.color-primario-suave
+  background-color: #DEE9F0 !important 
+
+.color-acento-contenido-suave
+  background-color: #FCE5CD !important 
+
+.color-acento-botones-suave
+  background-color: #F9E6B3 !important 
+
+.tarjeta--container
+  .tarjeta
+    border-radius: 0px 
+    &:first-child
+      border-top-left-radius: 20px
+      border-bottom-left-radius: 20px
+    &:last-child
+      border-top-right-radius: 20px
+      border-bottom-right-radius: 20px
+    
+    h4, p
+      line-height: 1.4em
+// Colores basados en la imagen de referencia
+$verde-slyder: #AEE65B
+$azul-fondo-slyder: #12263F
+
+.tarjeta--blanca
+  background-color: #ffffff
+  border-radius: 20px
+
+// Ajuste para los botones de navegación (flechas verdes)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $verde-slyder
+  opacity: 1
+  border: none
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1)
+
+// Ajuste para los puntos indicadores de la parte inferior
+.slyder-a__bullets__item
+  background-color: #D2E1F1
+  border: none
+  &--active
+    background-color: $verde-slyder
+
+// Estilo para la imagen con marco (opcional según el diseño)
+.col-lg-5 figure
+  border: 8px solid #3C4B6B // Azul oscuro que se ve en el borde de la foto
+  border-radius: 5px

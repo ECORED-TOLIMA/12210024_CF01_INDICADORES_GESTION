@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Fundamentos para implementar la medición en las organizaciones.',
+    Description:
+      'Este componente aborda los fundamentos para la apropiación de los indicadores de gestión desde la administración como pilar estratégico. Al estructurar la organización se diseñan objetivos, procesos y procedimientos que facilitan la asignación de funciones y responsabilidades alineadas con metas por áreas y departamentos, monitoreadas y validadas mediante indicadores de gestión para aportar a la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,134 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de administración',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto y evolución de administración',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Importancia de la administración en las organizaciones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Funciones administrativas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Tipos de organizaciones',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Relación entre administración y gestión por resultados',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'La medición en las organizaciones',
+            hash: 't_1_6',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Planeación estratégica',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Misión, visión y valores',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Análisis del entorno FODA',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Objetivos estratégicos, tácticos y operativos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Gestión por procesos',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Indicadores de gestión y su clasificación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto de indicador',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Clasificación de indicadores',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Indicadores versus métricas',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Beneficios de la implementación de indicadores',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Importancia de los indicadores en la toma de decisiones',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Indicadores como herramientas de control administrativo',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: 'Indicadores de gestión',
+            hash: 't_3_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Diseño de indicadores de gestión',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Relación indicador – objetivo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Metodología para la construcción de indicadores',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Ficha técnica del indicador',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
