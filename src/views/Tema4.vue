@@ -30,7 +30,7 @@
           img(src="@/assets/curso/Temas/tema4/img3.png", alt="Imagen decorativa")   
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.p-4.col
+        .tarjeta.BG04.p-4
           .row.justify-content-center.align-items-center
             .col-1.col-md-1
               figure
@@ -45,7 +45,7 @@
       .col-lg-9
         p.mb-3 Comprender esta estructura es el punto de partida para avanzar hacia el diseño concreto de cada indicador. Para que este proceso sea efectivo, cada indicador debe establecer una relación directa con el objetivo que se propone medir, garantizando que la información obtenida sea relevante y contribuya al cumplimiento de las metas organizacionales. De este modo, el diseño del indicador se convierte en un ejercicio técnico y estratégico que orienta la medición hacia resultados concretos y verificables.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Relación indicador – objetivo
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
@@ -75,41 +75,41 @@
               p.mb-0 En consecuencia, diseñar indicadores con base en objetivos claros y verificables fortalece la coherencia del sistema de gestión y facilita la identificación oportuna de desviaciones. Este proceso se desarrolla a través de cinco pasos que orientan la construcción técnica del indicador, los cuales se presentan a continuación:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-5
+        .tarjeta.tarjeta--azul-suave.p-0.p-lg-4
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Identificar el objetivo:] 
-                Se define la meta que se quiere alcanzar, asegurando que sea clara, medible y que cuente con un marco de tiempo determinado. 
+              p.mb-0 #[b Identificar el objetivo:] 
+              | Se define la meta que se quiere alcanzar, asegurando que sea clara, medible y que cuente con un marco de tiempo determinado. 
         
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Definir la intención de medición:] 
-                Se determina qué aspecto del objetivo se medirá, ya sea en términos de cantidad, calidad o tiempo, según las necesidades del proceso. 
+              p.mb-0 #[b Definir la intención de medición:] 
+              | Se determina qué aspecto del objetivo se medirá, ya sea en términos de cantidad, calidad o tiempo, según las necesidades del proceso. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b FFormular el indicador:]  
-                Se construye una fórmula de cálculo clara, como el porcentaje de cobertura o la tasa de variación. El indicador puede expresar una relación entre lo real y lo esperado, o formularse como una afirmación en el caso de los indicadores cualitativos. 
+              p.mb-0 #[b Formular el indicador:]  
+              | Se construye una fórmula de cálculo clara, como el porcentaje de cobertura o la tasa de variación. El indicador puede expresar una relación entre lo real y lo esperado, o formularse como una afirmación en el caso de los indicadores cualitativos. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-0 #[b Establecer la línea de base y la meta:] 
-                Se define el punto de partida del proceso y el nivel de desempeño que se desea alcanzar en el período establecido. 
+              | Se define el punto de partida del proceso y el nivel de desempeño que se desea alcanzar en el período establecido. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-0 #[b Definir las fuentes de información y la periodicidad:] 
-                Se especifica el origen de los datos necesarios para calcular el indicador y la frecuencia con que se realizará la medición: mensual, trimestral o anual.
+              | Se especifica el origen de los datos necesarios para calcular el indicador y la frecuencia con que se realizará la medición: mensual, trimestral o anual.
     .row.justify-content-center.align-items-center.mb-5
       .col-3.col-lg-3.mb-3.mb-lg-0
         figure
@@ -118,7 +118,7 @@
         .cajon
           p.mb-0 La aplicación de estos cinco pasos garantiza que cada indicador diseñado sea pertinente, técnicamente válido y alineado con los objetivos de la organización. Su implementación sistemática fortalece la capacidad de medición organizacional y contribuye a que las decisiones se adopten con base en información confiable, oportuna y verificable. De este modo, el diseño del indicador deja de ser un ejercicio aislado y se convierte en parte integral del ciclo de gestión estratégica de la organización.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Metodología para la construcción de indicadores
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -152,7 +152,7 @@
           ImagenInfografica.color-primario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/Temas/tema4/img14.png', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/Temas/tema4/img14.svg', alt='Infografía de matriz RACI')
                 figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www.funcionpublica.gov.co/documents/d/quest/guia-para-la-construccion-y-analisis-de-indicadores-de-gestion-version-4-mayo-2018-pdf?download=true
         .d-block.d-lg-none
           figure
@@ -161,7 +161,7 @@
     p.mb-4 De acuerdo con la figura anterior para un diseño apropiado de indicadores se hace necesario tener en cuenta lo siguiente:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-5
+        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
@@ -186,7 +186,7 @@
             .col
               p.mb-0 No se deben incluir elementos cuantitativos del objetivo ya que estos únicamente sirven como referencia para identificar la meta o el valor objetivo del indicador en el tiempo.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.3 Ficha técnica del indicador
     .row.justify-content-center.align-items-center.mb-4
 
@@ -206,7 +206,7 @@
                   p.mb-0 Asimismo, la ficha técnica facilita la inducción del personal nuevo, ya que consolida en un solo documento toda la información necesaria para calcular, interpretar y reportar el indicador. Su uso permanente permite identificar desviaciones frente a las metas establecidas, adoptar acciones correctivas oportunas y mantener un seguimiento continuo del desempeño organizacional. En consecuencia, diseñar una ficha técnica completa y bien estructurada es una condición indispensable para implementar un sistema de indicadores confiable y efectivo.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.p-4.col
+        .tarjeta.BG04.p-4
           .row.justify-content-center.align-items-center
             .col-1.col-md-1
               figure
@@ -342,7 +342,7 @@
     p.mb-4 Asimismo, su uso sistemático garantiza la consistencia en la medición a lo largo del tiempo, evitando interpretaciones subjetivas o variaciones en el cálculo que puedan afectar la confiabilidad de los resultados. De igual modo, facilita la inducción del personal nuevo en el manejo de métricas y asegura que todos los responsables apliquen el mismo criterio al calcular, analizar y reportar cada indicador.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.p-4.col
+        .tarjeta.BG04.p-4
           .row.justify-content-center.align-items-center
             .col-1.col-md-1
               figure

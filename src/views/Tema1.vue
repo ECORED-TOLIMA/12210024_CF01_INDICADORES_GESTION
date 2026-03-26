@@ -15,7 +15,7 @@
           p.mb-0 La administración es la ciencia que gestiona un conjunto de bienes materiales, recursos humanos, tecnológicos y financieros con el fin de generar un beneficio a sus inversionistas, a partir de allí se identifica con claridad que la administración nació como herramienta para garantizar la generación de resultados beneficiosos en una organización, mediante la puesta en marcha de una serie de recursos que al ser dispuestos para el logro de los objetivos, deben ser distribuidos en una estructura que facilite la ejecución de actividades mediante la sectorización de las funciones administrativas y el desempeño de cada rol vinculado.
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-botones.p-4.col
+        .tarjeta.BG01.p-4
           .row.justify-content-center.align-items-center
             .col-9.col-md-10
               p.mb-0 De esta manera, se presentan las etapas de la administración las cuales fundamentan el desempeño organizacional, facilitando la identificación de áreas, procesos y procedimientos que requieren de estándares para el cumplimiento de sus metas y su posterior validación. Todo esto confluye en la empresa como elementos indispensables para definir la estructuración, consolidación y permanencia de las organizaciones.
@@ -23,7 +23,7 @@
               figure
                 img(src="@/assets/curso/Temas/tema1/img4.png" alt="Adornos flotantes")
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Concepto y evolución de administración
     .row.justify-content-center.align-items-center.mb-4
 
@@ -32,13 +32,13 @@
           p.mb-3 La administración es el proceso de planear, organizar, dirigir y controlar el trabajo de los miembros de la organización y de la coordinación de todos sus recursos disponibles para alcanzar sus objetivos.
         .row.justify-content-center
           .col-lg-12
-            .cajon.color-acento-botones.p-4.col
+            .tarjeta.BG02.p-4
               p.mb-0 Esta dinámica se dio desde la época primitiva donde hubo distribución de responsabilidades en actividades como la caza, pasando por la época de la esclavitud y, por último, la revolución industrial donde se hace inminente estructurar una dinámica organizacional basada en tiempos y movimientos, convirtiéndose posteriormente en ciencia debido a que su evolución no se detiene y ha generado nuevas estrategias que aportan el logro de los objetivos organizacionales.
       .col-lg-4
         figure
           img(src="@/assets/curso/Temas/tema1/img5.png", alt="Imagen decorativa")
     p.mb-4 Su evolución continúa consolidándose por la necesidad de establecer una coordinación ordenada que permita controlar las actividades y funciones de los diferentes roles que se desempeñan en una organización. De acuerdo con dicha evolución, se presentan a continuación las principales teorías:
-    .tarjeta.tarjeta--azul.p-4
+    .tarjeta.tarjeta--azul.p-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -93,7 +93,7 @@
             figure
               img(src='@/assets/curso/Temas/tema1/img11.png', alt='Texto que describa la imagen')
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Importancia de la administración en las organizaciones
     p.mb-4 La administración como disciplina brinda herramientas y conocimientos para que el esfuerzo coordinado de todos los recursos que conforman una organización (materiales y humanos), trabaje de manera eficiente hacia los mismos objetivos. A través de su implementación es posible anticiparse a situaciones de cambio o de crisis externa que puedan causar impacto en su desempeño, con el objetivo de mantenerse en actividad.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -103,7 +103,7 @@
       .bloque-texto-g__texto.p-4
         p La implementación de la administración en las organizaciones genera un sinnúmero de escenarios posibles que, conjugados con los recursos disponibles, pueden ser factibles. Para ello, la organización debe definir el propósito a alcanzar desde su proyección estratégica y desagregarlo en cada área o departamento. De este modo, a través de la definición de procesos y procedimientos, la asignación de funciones y responsabilidades, así como la disposición de recursos físicos y tecnológicos, las áreas conocen con claridad el alcance de su labor y los objetivos a los que deben aportar, dando paso a la medición y monitoreo de objetivos, metas y actividades.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3 Funciones administrativas
     p.mb-4 La administración encuentra su razón de ser en la empresa, pues es allí donde sus principios, funciones y herramientas cobran sentido y se convierten en acciones concretas. Sin una estructura organizacional clara, difícilmente se pueden definir objetivos, asignar responsabilidades o medir resultados.
     .row.justify-content-center.align-items-center.mb-4
@@ -112,7 +112,7 @@
         p.mb-3 Para comprender las funciones administrativas es indispensable reconocer qué es una empresa y cuál es su propósito dentro de la economía, por ser el escenario donde la administración se hace presente.
         .row.justify-content-center
           .col-lg-12
-            .cajon.color-acento-botones.p-4.col
+            .tarjeta.BG03.p-4
               .row.justify-content-center.align-items-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
@@ -148,9 +148,9 @@
                 .col-12.col-md-11
                   p.mb-0 En consecuencia, comprender estas funciones en su conjunto resulta fundamental para la gestión organizacional, dado que es en la etapa de control donde los indicadores de gestión adquieren mayor relevancia. A través de ellos, se verifica si lo ejecutado corresponde a lo planeado, se identifican las desviaciones y se adoptan decisiones oportunas que garantizan el cumplimiento de los objetivos estratégicos, tácticos y operativos de la organización.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.4.Tipos de organizaciones
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Temas/tema1/img17.png')})`}"
       )
@@ -160,25 +160,25 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta-verde").mb-5
       .row(titulo="Según su tamaño")
         .col-12
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Microempresa:] unidad económica que cuenta con menos de 10 trabajadores.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Pequeña:] corresponde al tipo de empresa familiar que tiene un único dueño. Tiene entre 1 y 50 trabajadores.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Mediana:] es una empresa más estructurada que tiene entre 51 y 200 empleados.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
@@ -188,25 +188,25 @@
       .row(titulo="Según su actividad económica y sector al que pertenecen")
         .col-12
           p En esta clasificación se considera el sector económico al que pertenece la empresa:
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p #[b Sector primario:] actividades dedicadas a la explotación del suelo en producción agrícola o extracción minera.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p #[b Sector secundario:] son empresas dedicadas a la transformación de materias primas.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p #[b Sector terciario:] empresas dedicadas a la prestación de servicios.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
@@ -216,19 +216,19 @@
       .row(titulo="Según el ámbito de actuación")
         .col-12
           p Las empresas pueden ser locales, nacionales o multinacionales.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Locales:] tienen presencia local o en un municipio de su país.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Nacionales:] la cobertura o presencia de este tipo de empresas en el territorio de un país o nación.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
@@ -240,7 +240,7 @@
           p.mb-4 La empresa al ser constituida legalmente adquiere una personería jurídica y asume unas responsabilidades legales que se presentan a continuación:
           
           //- Empresario individual
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
@@ -248,7 +248,7 @@
               p #[b Empresario individual o autónomo:] en esta modalidad, una sola persona asume toda la responsabilidad del negocio con su patrimonio personal. Es ideal para actividades comerciales, profesionales o artesanales de pequeña escala.
 
           //- Sociedades mercantiles
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
@@ -269,7 +269,7 @@
                   | #[b Sociedad en Comandita:] combina socios colectivos (responsabilidad ilimitada) y comanditarios (responsabilidad limitada).
 
           //- Empresa Unipersonal
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
@@ -277,7 +277,7 @@
               p #[b Empresa Unipersonal:] regulada por la Ley 222 de 1995, permite que una persona natural o jurídica constituya una empresa con personalidad jurídica independiente.
 
           //- Sociedades cooperativas
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
@@ -295,19 +295,19 @@
       .row(titulo="Según el origen de su capital")
         .col-12
           p De acuerdo con la estructura de su capital, se clasifican en:
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Empresas públicas:] son aquellas que pertenecen al Estado. Se las seguirá considerando públicas si el 51 % de sus acciones son propiedad del sector público. El Estado toma la decisión de iniciar la empresa y debe establecer sus objetivos para luego controlar su actividad
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
               p.mb-3 #[b Empresas privadas:] son aquellas que están a cargo de individuos particulares y que distribuyen sus ganancias entre los socios e inversores.
-          .row.mb-3
+          .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
@@ -318,13 +318,13 @@
         figure
           img(src="@/assets/curso/Temas/tema1/img19.png", alt="alt")
       .col-lg-8.col-md-7
-        .cajon.color-acento-botones.p-4.col
-          p Con el propósito de profundizar en la comprensión de los tipos de empresas que existen en Colombia y su relevancia para la gestión organizacional, se presenta el siguiente pódcast, que desarrolla de manera clara y estructurada la clasificación según el tamaño, la actividad económica, el ámbito de actuación, la naturaleza jurídica y el origen del capital de las empresas colombianas.
+        .tarjeta.BG01.p-4
+          p.mb-0 Con el propósito de profundizar en la comprensión de los tipos de empresas que existen en Colombia y su relevancia para la gestión organizacional, se presenta el siguiente pódcast, que desarrolla de manera clara y estructurada la clasificación según el tamaño, la actividad económica, el ámbito de actuación, la naturaleza jurídica y el origen del capital de las empresas colombianas.
     .row.justify-content-center.mb-5
       .col-lg-10
         figure
           img(src='@/assets/curso/Temas/tema1/img20.png', alt='Ilustración de equipo trabajando en desarrollo de software')
-        .tarjeta.p-4(style="background-color: #9ECFFF; border-radius: 0 0 20px 20px;")
+        .tarjeta.p-4(style="background-color: #283760; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
               texto="Pódcast"
@@ -403,7 +403,7 @@
           p Define la estructura legal de la empresa: empresario individual, sociedades mercantiles, cooperativas o entidades sin ánimo de lucro.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.p-4.col
+        .tarjeta.BG04.p-4
           .row.justify-content-center.align-items-center
             .col-1.col-md-1
               figure
@@ -447,7 +447,7 @@
                 td Superior a $25.298.422.716
                 td Superior a $113.164.082.808
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.5 Relación entre administración y gestión por resultados
     
     .row.justify-content-center.align-items-center.mb-4
@@ -470,44 +470,44 @@
 
     .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/Temas/tema1/img30.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/Temas/tema1/img30.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Enfoque
-          p.text-small La administración gestiona recursos y tareas orientadas a la operación. La GpR gestiona el desempeño y el impacto organizacional para el logro de los objetivos estratégicos.
+          h5.text-center Enfoque
+          p La administración gestiona recursos y tareas orientadas a la operación. La GpR gestiona el desempeño y el impacto organizacional para el logro de los objetivos estratégicos.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/Temas/tema1/img31.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/Temas/tema1/img31.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Finalidad
-          p.text-small La administración busca eficiencia operativa en los procesos. La GpR busca generar resultados de valor para la organización y la ciudadanía.
+          h5.text-center Finalidad
+          p La administración busca eficiencia operativa en los procesos. La GpR busca generar resultados de valor para la organización y la ciudadanía.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/Temas/tema1/img32.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/Temas/tema1/img32.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Procesos
-          p.text-small La GpR transforma la administración tradicional al incorporar planificación estratégica, presupuesto por resultados y monitoreo y evaluación continua de la gestión
+          h5.text-center Procesos
+          p La GpR transforma la administración tradicional al incorporar planificación estratégica, presupuesto por resultados y monitoreo y evaluación continua de la gestión
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/Temas/tema1/img33.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/Temas/tema1/img33.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Relación Directa
-          p.text-small Una mejor gestión de los procesos internos contribuye positivamente al logro de resultados estratégicos eficientes en la organización.
+          h5.text-center Relación Directa
+          p Una mejor gestión de los procesos internos contribuye positivamente al logro de resultados estratégicos eficientes en la organización.
 </template>
 
 <script>

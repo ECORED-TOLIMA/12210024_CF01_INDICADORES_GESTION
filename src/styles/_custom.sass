@@ -27,9 +27,6 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
 
@@ -48,7 +45,7 @@ figcaption
 .cajon.color-acento-botones.p-4.col
   background-color: #E9EAEF
 
-.cajon.p-4.col
+.tarjeta.BG04
   background-color: #FCAE57
 
 .cajon.color.p-4.col
@@ -56,7 +53,6 @@ figcaption
 
 .row.justify-content-center.align-items-center.mb-5
   background-color: #FFF7EE
-  border-radius: 20px
 
 .row.justify-content-center.align-items-center.mb-5.color
   background-color: #DEEAF1
@@ -65,6 +61,24 @@ figcaption
 .row.justify-content-center.align-items-center.mb-6
   background-color: #DEEAF1
 
+.titulo
+  background-color:#FFEBBE
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
 
 
 // --- VARIABLES DE COLOR (Ajusta el verde según tu paleta exacta) ---
@@ -73,6 +87,7 @@ $fondo-blanco-transp: rgba(255, 255, 255, 0.95)
 $texto-negro: #000
 $verde-claro-fondo: #E8F5D2 // El fondo suave de las tarjetas
 $verde-boton: #B1EC6F
+$verde-boton2: #E7F9D3
 $verde-claro: #E8F5D2 // Fondo de los items cerrados
 $verde-indicador: #B1EC6F // El círculo de la letra
 $azul-contenido: #DEE9F0 // Fondo del contenido cuando está abierto
@@ -89,13 +104,18 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
   p
     color: #000 !important
     line-height: 1.5em
-
+.tarjeta.BG01
+  background-color: #E9EAEF
+.tarjeta.BG02
+  background-color: #DEEAF1
+.tarjeta.BG03
+  background-color: #FEE7CC
 .tarjeta.color-primario.p-4.h-100
   background-color: #DEEAF1
   h4, p
     color: $texto-negro !important
 
-.tarjeta.tarjeta--azul.p-4
+.tarjeta.tarjeta--azul.p-5
   // 1. FONDO DE LA TARJETA PRINCIPAL
   background-image: url('../assets/curso/portada/fondo-banner-principal.png') 
   background-size: cover
@@ -150,7 +170,7 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
   
   // Cuando el acordeón está abierto, cambia a un tono sutilmente distinto o azulado como en tu imagen
   &.acordion__activo
-    background-color: #E2E9F0 // El tono azulado grisáceo que se ve en el primer ítem abierto
+    background-color: #DEEAF1 // El tono azulado grisáceo que se ve en el primer ítem abierto
 
 .acordion
   .acordion__header
@@ -181,33 +201,39 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
       border: none
 
 .linea-tiempo-d.color-secundario
+
   .linea-tiempo-d__item
-    .linea-tiempo-d__item__number
-      background-color: $verde-indicador !important
+
+    //INACTIVO (cuando tiene tarjeta--gris)
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: $verde-boton2 !important
       color: #000 !important
       font-weight: bold
-    
+
+    //ACTIVO (cuando el item está seleccionado)
+    &.linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+        background-color: $verde-boton !important
+        color: #000 !important
+        font-weight: bold
+
+    // CONTENIDO
     .linea-tiempo-d__item__content
       background-color: $verde-claro !important
       border-radius: 5px
-      
+
       .linea-tiempo-d__item__content__title
         color: #000 !important
         font-weight: bold
 
-    // Estado cuando el item está abierto (Active)
-    &.linea-tiempo-d__item--accent
+    // ACTIVO - CONTENIDO
+    &.linea-tiempo-d__item--selected
       .linea-tiempo-d__item__content
         background-color: $azul-contenido !important
-        border: 2px solid $color-borde-active
-        
-        .linea-tiempo-d__item__content__slot
-          p
-            color: #000 !important
 
-  // Línea punteada lateral
-  .linea-tiempo-d__item__dots:after
-    border-left: 3px dotted #ADB5BD
+      .linea-tiempo-d__item__content__slot
+        p
+          color: #000 !important
 
 // --- VARIABLES DE COLOR MATRIZ FODA ---
 $naranja-foda: #F9B252
@@ -322,6 +348,12 @@ $azul-borde-tabs: #12263F
 .color-acento-botones-suave
   background-color: #F9E6B3 !important 
 
+//.tarjeta--boton.color-primario
+//  background-color: #E7F9D3
+//  &:hover
+//    background-color: #E9EAEF !important
+//    color: black !important
+
 .tarjeta--container
   .tarjeta
     border-radius: 0px 
@@ -360,3 +392,4 @@ $azul-fondo-slyder: #12263F
 .col-lg-5 figure
   border: 8px solid #3C4B6B // Azul oscuro que se ve en el borde de la foto
   border-radius: 5px
+

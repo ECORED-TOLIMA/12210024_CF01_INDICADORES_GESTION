@@ -36,12 +36,12 @@
           img(src="@/assets/curso/Temas/tema2/img3.png", alt="Imagen decorativa")
     p.mb-4 Estos seis pasos conforman un ciclo dinámico y continuo que vincula la visión organizacional con la acción cotidiana. Su implementación garantiza que cada área, proceso y colaborador trabaje en la misma dirección, aportando al cumplimiento de los objetivos estratégicos. En consecuencia, la planeación estratégica no es un ejercicio puntual sino una práctica permanente que orienta la toma de decisiones y constituye el punto de partida para el diseño e implementación de los indicadores de gestión.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.1 Misión, visión y valores
-    .row.justify-content-center
+    .row.justify-content-center.mb-3
       .col-lg-9
         p.mb-4 En la organización, la misión, la visión y los valores son esenciales para construir la filosofía organizacional, ya que definen su identidad propia y orientan el desarrollo organizacional. Asimismo, establecen las reglas, normas y políticas que marcan el comportamiento del equipo de trabajo, constituyendo el marco de acción para todos los miembros de la organización.
-        .cajon-b-custom.p-4
+        .tarjeta.BG02.br-0.p-4
           .row.justify-content-center.align-items-center.mb-6
             .col-lg-2
               img(src="@/assets/curso/Temas/tema2/img4.png" alt="Icono modelo SECI")
@@ -54,34 +54,34 @@
     p.mb-4 Los componentes clave de la planeación estratégica son la visión, la misión y los valores, los cuales se presentan a continuación:
     .row.mb-3
       .col-sm-7.col-lg-4.mb-5.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
                 img(src='@/assets/curso/Temas/tema2/img6.png', alt='Texto que describa la imagen')
 
-          h3.text-center Misión
-          p.text-small responde a la razón de ser de la organización, es decir, ¿quiénes son?, ¿qué hace?, ¿cuál es su propósito? y ¿cuál es su compromiso?
+          h5.text-center Misión
+          p Responde a la razón de ser de la organización, es decir, ¿quiénes son?, ¿qué hace?, ¿cuál es su propósito? y ¿cuál es su compromiso?
 
       .col-sm-7.col-lg-4.mb-5.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
                 img(src='@/assets/curso/Temas/tema2/img7.png', alt='Texto que describa la imagen')
 
-          h3.text-center Visión
-          p.text-small es la proyección que la organización desea alcanzar en un futuro determinado, teniendo en cuenta el entorno en el que se encuentra y los objetivos que pretende alcanzar.
+          h5.text-center Visión
+          p Es la proyección que la organización desea alcanzar en un futuro determinado, teniendo en cuenta el entorno en el que se encuentra y los objetivos que pretende alcanzar.
 
       .col-sm-7.col-lg-4.mb-5.mb-sm-0
-        .tarjeta--boton.color-acento-botones.p-4
+        .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
                 img(src='@/assets/curso/Temas/tema2/img8.png', alt='Texto que describa la imagen')
 
-          h3.text-center Valores
-          p.text-small son todas las afirmaciones que identifican y caracterizan la organización, definiendo el marco de acción o políticas dentro de la organización y fuera de ella.
+          h5.text-center Valores
+          p Son todas las afirmaciones que identifican y caracterizan la organización, definiendo el marco de acción o políticas dentro de la organización y fuera de ella.
     .row.justify-content-center.mb-3
           .col-lg-12
             .cajon
@@ -94,48 +94,55 @@
     p.mb-4 Por esta razón, se presentan a continuación los elementos que integran la planeación estratégica, los cuales definen con claridad el direccionamiento de la organización y crean una identidad propia orientada al logro de sus objetivos:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-5
+        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Misión:] define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
+              p.mb-0 #[b Misión] 
+              | Define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
         
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Visión:] representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
+              p.mb-0 #[b Visión:] 
+              | Representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Análisis FODA:] herramienta estratégica que permite identificar las fortalezas y debilidades internas de la organización, así como las oportunidades y amenazas del entorno externo.
+              p.mb-0 #[b Análisis FODA] 
+              | Herramienta estratégica que permite identificar las fortalezas y debilidades internas de la organización, así como las oportunidades y amenazas del entorno externo.
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Objetivos:] logros específicos y medibles que la organización se propone alcanzar en un período determinado, alineados con la misión y la visión organizacional.
+              p.mb-0 #[b Objetivos] 
+              | Logros específicos y medibles que la organización se propone alcanzar en un período determinado, alineados con la misión y la visión organizacional.
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Estrategias:] caminos de acción definidos para alcanzar los objetivos organizacionales, optimizando los recursos disponibles y generando ventajas competitivas sostenibles.
+              p.mb-0 #[b Estrategias] 
+              | Caminos de acción definidos para alcanzar los objetivos organizacionales, optimizando los recursos disponibles y generando ventajas competitivas sostenibles.
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Tácticas, recursos y capacitación:] acciones concretas, recursos asignados y procesos de formación que hacen posible la ejecución eficiente de las estrategias definidas en la planeación.
+              p.mb-0 #[b Tácticas, recursos y capacitación] 
+              | Acciones concretas, recursos asignados y procesos de formación que hacen posible la ejecución eficiente de las estrategias definidas en la planeación.
           
           .row
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Plan de acción:] documento que consolida las actividades, responsables, tiempos y recursos necesarios para ejecutar las estrategias y alcanzar los objetivos organizacionales.
+              p.mb-0 #[b Plan de acción] 
+              | Documento que consolida las actividades, responsables, tiempos y recursos necesarios para ejecutar las estrategias y alcanzar los objetivos organizacionales.
     .row.justify-content-center.align-items-center.mb-4
 
       .col-lg-3
@@ -153,7 +160,7 @@
                 .col-12.col-md-11
                   p.mb-0 En consecuencia, la participación activa de todos los colaboradores es fundamental, puesto que son ellos quienes, de manera conjunta, determinan los objetivos, las estrategias, las tácticas y los recursos requeridos para alcanzar la proyección estratégica definida por la organización.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.2 Análisis del entorno FODA
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -182,10 +189,9 @@
       .col-lg-8
         .cajon
           p.mb-0 La Matriz FODA, también conocida como DAFO o DOFA, es un esquema estructurado en cuatro cuadrantes donde se identifican los factores internos y externos que inciden en la organización. Su propósito es consolidar en un solo instrumento el diagnóstico completo de la empresa, facilitando la definición de estrategias pertinentes para cada situación.
-    .logo-box.me-3
-      i.fas.code-terminal.text-white
-    .titulo-bg.py-2.px-4.mb-4
-      h4.mb-0 Implementación del FODA
+    .titulo.mb-4
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Implementación del FODA
     p.mb-4 La implementación de este diagnóstico estratégico comienza con la participación de los integrantes de la organización, mediante técnicas que permitan recopilar información objetiva y pertinente sobre su situación real. De este modo, se elabora un diagnóstico integral de la empresa desde los aspectos internos y externos, positivos y negativos, que tienen incidencia directa en su desempeño.
     p.mb-3 Con la información recopilada, estructurada y validada en equipo, se procede a clasificarla en la Matriz FODA implementada, como se presenta a continuación:
     .row.mb-4
@@ -231,7 +237,7 @@
         p.mb-3 Como se muestra en la Tabla 2, a partir del análisis objetivo de los factores internos y externos se definen las estrategias FO, DO, FA y DA, determinando los caminos de acción para superar debilidades, contrarrestar amenazas, potenciar fortalezas y aprovechar oportunidades, lo que genera mayor valor organizacional en la evaluación de los resultados obtenidos.
         .row.justify-content-center
           .col-lg-12
-            .cajon.color-acento-botones.p-4.col
+            .cajon.color-acento-botones.p-4.col(style="background-color: #91B9D1;")
               .row.justify-content-center.align-items-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
@@ -242,7 +248,7 @@
         figure
           img(src="@/assets/curso/Temas/tema2/img16.png", alt="Imagen decorativa")
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.3 Objetivos estratégicos, tácticos y operativos
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3
@@ -305,7 +311,7 @@
               li #[b • Viables:] consideran el presupuesto y talento disponible.
               li #[b • Observables:] describen conductas o resultados directos verificables.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.4 Gestión por procesos
     .row.justify-content-center
       .col-lg-9
@@ -347,17 +353,17 @@
                 .col-auto
                   img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
                 .col 
-                  p b[# Direccionamiento estratégico.]
+                  p #[b Direccionamiento estratégico.]
               .row.mb-4
                 .col-auto
                   img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
                 .col 
-                  p b[# Gestión del talento humano.]
+                  p #[b Gestión del talento humano.]
               .row.mb-4
                 .col-auto
                   img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
                 .col 
-                  p b[# Gestión de las tecnologías de la información.]
+                  p #[b Gestión de las tecnologías de la información.]
 
           .row(numero="2" titulo="Procesos de soporte")
             .col-md-12
@@ -482,7 +488,7 @@
     p.mb-5 Además de los elementos y características de la gestión por procesos sustituye la jerarquía tradicional por una estructura más ágil, facilitando el cambio y aumentando la productividad. Para ello, se utilizan herramientas y técnicas de modelado de procesos, automatización y monitoreo de los mismos donde se encuentran diferentes tipos de procesos de gestión como:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-5
+        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
           .row.align-items-center.justify-content-center
             .col-lg-7.mb-4.mb-lg-0
               //- Lista de gestiones con icono
