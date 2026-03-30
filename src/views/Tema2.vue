@@ -12,28 +12,29 @@
       )
       .bloque-texto-g__texto.p-4
         p La planeación estratégica es un proceso sistémico mediante el cual la organización es proyectada a los niveles superiores que desea alcanzar, uno de esos niveles puede ser para una empresa comercializadora una mayor participación en el mercado, para una institución dedicada a producir tecnología, este nivel superior o visión puede tener una mayor cobertura a nivel mundial, en una organización social ese nivel puede ser generar la exitosa implementación de emprendimientos comunitarios, entre otros.
-    .row.justify-content-center.mb-3
-          .col-lg-12
-            .cajon
-              .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
-                  figure
-                    img(src="@/assets/curso/Temas/tema2/img2.png" alt="Icono rendimiento")
-                .col-12.col-md-11
-                  p.mb-0 En este proceso se establecen los objetivos a mediano y largo plazo de una organización, se definen las acciones concretas para alcanzarlos y se evalúa el impacto en relación con las metas definidas. Esta proyección organizacional en el tiempo corresponde a los objetivos estratégicos que son desglosados en diferentes niveles con el fin de que sean monitoreados, medidos y alcanzados. 
-    p.mb-4 A continuación, se presenta el proceso de planeación estratégica desagregado en los pasos secuenciales a llevar a cabo con el din de realizar una proyección organizacional pertinente.
-    .row.justify-content-center.mb-5
-      .col-lg-7
-        LineaTiempoD.color-secundario
-          p(numero="A" titulo="Análisis del Entorno") El análisis del entorno comprende el estudio interno y externo de la organización, donde se evalúan factores como la competencia, la economía, la tecnología y las políticas, mediante herramientas como el FODA o el PESTEL, con el fin de identificar oportunidades y amenazas.
-          p(numero="B" titulo="Definir la dirección estratégica") Corresponde a dar dirección a la organización, definiendo con claridad la proyección que se espera alcanzar en un período de tiempo determinado, condensada en la visión, la misión y los objetivos organizacionales.
-          p(numero="C" titulo="Establecer objetivos estratégicos y metas") Con base en el direccionamiento estratégico, la organización establece responsables, estrategias, tiempos y recursos para hacer posible la gestión orientada a la proyección estratégica.
-          p(numero="D" titulo="Determinar los objetivos por área o departamento") Con base en la planeación estratégica, la organización desagrega los objetivos, los cuales son delegados por áreas o departamentos hasta llegar a la definición de actividades.
-          p(numero="E" titulo="Gestionar y monitorear el desempeño organizacional") Corresponde a implementar acciones, operaciones e indicadores para supervisar la ejecución de la estrategia, apoyándose en un cuadro de mando integral.
-          p(numero="F" titulo="Seguimiento al plan estratégico") Comprende reuniones y revisiones periódicas para evaluar resultados, identificar obstáculos o desviaciones y ajustar la planeación según los cambios del entorno.
-      .col-7.col-lg-3
-        figure
-          img(src="@/assets/curso/Temas/tema2/img3.png", alt="Imagen decorativa")
+    .tarjeta--fondo2.px-5
+      .row.justify-content-center.mb-3
+            .col-lg-12
+              .cajon
+                .row.justify-content-center.align-items-center
+                  .col-1.col-md-1.mb-1.mb-md-0
+                    figure
+                      img(src="@/assets/curso/Temas/tema2/img2.png" alt="Icono rendimiento")
+                  .col-12.col-md-11
+                    p.mb-0 En este proceso se establecen los objetivos a mediano y largo plazo de una organización, se definen las acciones concretas para alcanzarlos y se evalúa el impacto en relación con las metas definidas. Esta proyección organizacional en el tiempo corresponde a los objetivos estratégicos que son desglosados en diferentes niveles con el fin de que sean monitoreados, medidos y alcanzados. 
+      p.mb-4 A continuación, se presenta el proceso de planeación estratégica desagregado en los pasos secuenciales a llevar a cabo con el din de realizar una proyección organizacional pertinente.
+      .row.justify-content-center.mb-5
+        .col-lg-7
+          LineaTiempoD.color-secundario
+            p(numero="A" titulo="Análisis del Entorno") El análisis del entorno comprende el estudio interno y externo de la organización, donde se evalúan factores como la competencia, la economía, la tecnología y las políticas, mediante herramientas como el FODA o el PESTEL, con el fin de identificar oportunidades y amenazas.
+            p(numero="B" titulo="Definir la dirección estratégica") Corresponde a dar dirección a la organización, definiendo con claridad la proyección que se espera alcanzar en un período de tiempo determinado, condensada en la visión, la misión y los objetivos organizacionales.
+            p(numero="C" titulo="Establecer objetivos estratégicos y metas") Con base en el direccionamiento estratégico, la organización establece responsables, estrategias, tiempos y recursos para hacer posible la gestión orientada a la proyección estratégica.
+            p(numero="D" titulo="Determinar los objetivos por área o departamento") Con base en la planeación estratégica, la organización desagrega los objetivos, los cuales son delegados por áreas o departamentos hasta llegar a la definición de actividades.
+            p(numero="E" titulo="Gestionar y monitorear el desempeño organizacional") Corresponde a implementar acciones, operaciones e indicadores para supervisar la ejecución de la estrategia, apoyándose en un cuadro de mando integral.
+            p(numero="F" titulo="Seguimiento al plan estratégico") Comprende reuniones y revisiones periódicas para evaluar resultados, identificar obstáculos o desviaciones y ajustar la planeación según los cambios del entorno.
+        .col-7.col-lg-3
+          figure
+            img(src="@/assets/curso/Temas/tema2/img3.png", alt="Imagen decorativa")
     p.mb-4 Estos seis pasos conforman un ciclo dinámico y continuo que vincula la visión organizacional con la acción cotidiana. Su implementación garantiza que cada área, proceso y colaborador trabaje en la misma dirección, aportando al cumplimiento de los objetivos estratégicos. En consecuencia, la planeación estratégica no es un ejercicio puntual sino una práctica permanente que orienta la toma de decisiones y constituye el punto de partida para el diseño e implementación de los indicadores de gestión.
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -91,58 +92,59 @@
                     img(src="@/assets/curso/Temas/tema2/img9.png" alt="Icono rendimiento")
                 .col-12.col-md-11
                   p.mb-0 Al establecer la misión, la visión y los valores, la organización define los objetivos organizacionales, los cuales se dividen en objetivos por departamento, proceso y área. A partir de esta desagregación, se identifican acciones específicas que, al ejecutarse de manera eficiente y oportuna, contribuyen al logro de los objetivos de cada área y departamento. En consecuencia, el cumplimiento de estos objetivos aporta al logro de los propósitos organizacionales y a alcanzar la proyección estratégica definida.
-    p.mb-4 Por esta razón, se presentan a continuación los elementos que integran la planeación estratégica, los cuales definen con claridad el direccionamiento de la organización y crean una identidad propia orientada al logro de sus objetivos:
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Misión] 
-              | Define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
-        
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Visión:] 
-              | Representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
+    .tarjeta--fondo3.px-5
+      p.mb-4 Por esta razón, se presentan a continuación los elementos que integran la planeación estratégica, los cuales definen con claridad el direccionamiento de la organización y crean una identidad propia orientada al logro de sus objetivos:
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Misión] 
+                | Define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
           
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Análisis FODA] 
-              | Herramienta estratégica que permite identificar las fortalezas y debilidades internas de la organización, así como las oportunidades y amenazas del entorno externo.
-          
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Objetivos] 
-              | Logros específicos y medibles que la organización se propone alcanzar en un período determinado, alineados con la misión y la visión organizacional.
-          
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Estrategias] 
-              | Caminos de acción definidos para alcanzar los objetivos organizacionales, optimizando los recursos disponibles y generando ventajas competitivas sostenibles.
-          
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Tácticas, recursos y capacitación] 
-              | Acciones concretas, recursos asignados y procesos de formación que hacen posible la ejecución eficiente de las estrategias definidas en la planeación.
-          
-          .row
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Plan de acción] 
-              | Documento que consolida las actividades, responsables, tiempos y recursos necesarios para ejecutar las estrategias y alcanzar los objetivos organizacionales.
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Visión:] 
+                | Representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Análisis FODA] 
+                | Herramienta estratégica que permite identificar las fortalezas y debilidades internas de la organización, así como las oportunidades y amenazas del entorno externo.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Objetivos] 
+                | Logros específicos y medibles que la organización se propone alcanzar en un período determinado, alineados con la misión y la visión organizacional.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Estrategias] 
+                | Caminos de acción definidos para alcanzar los objetivos organizacionales, optimizando los recursos disponibles y generando ventajas competitivas sostenibles.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Tácticas, recursos y capacitación] 
+                | Acciones concretas, recursos asignados y procesos de formación que hacen posible la ejecución eficiente de las estrategias definidas en la planeación.
+            
+            .row
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Plan de acción] 
+                | Documento que consolida las actividades, responsables, tiempos y recursos necesarios para ejecutar las estrategias y alcanzar los objetivos organizacionales.
     .row.justify-content-center.align-items-center.mb-4
 
       .col-lg-3
@@ -194,28 +196,24 @@
       h5 Implementación del FODA
     p.mb-4 La implementación de este diagnóstico estratégico comienza con la participación de los integrantes de la organización, mediante técnicas que permitan recopilar información objetiva y pertinente sobre su situación real. De este modo, se elabora un diagnóstico integral de la empresa desde los aspectos internos y externos, positivos y negativos, que tienen incidencia directa en su desempeño.
     p.mb-3 Con la información recopilada, estructurada y validada en equipo, se procede a clasificarla en la Matriz FODA implementada, como se presenta a continuación:
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
+      h5 Tabla 2.
+      span Matriz FODA implementada
     .row.mb-4
-      .col-1
       .col-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 2.
-          span Matriz FODA implementada
         .tabla-a.color-acento-contenido
           table
             thead
               tr
                 th.bg-naranja.text-white.text-center.h3 Matriz FODA
                 th.bg-crema-oscuro
-                  b Factores internos: 
-                  | fortalezas. Capacidades especiales, ventajas
+                  p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas
                 th.bg-crema-oscuro
-                  b Factores internos: 
-                  | debilidades. Factores que limitan el desempeño y las
+                  p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las
             tbody
               tr
                 th.bg-crema-claro.text-start
-                  b Factores externos: 
-                  | oportunidades. Factores del entorno que pueden
+                  p.mb-0 #[b Factores externos:] oportunidades. Factores del entorno que pueden
                 td.bg-white
                   b Estrategia FO (Ofensiva): 
                   | usar fortalezas para aprovechar oportunidades.
@@ -224,8 +222,7 @@
                   | superar debilidades aprovechando
               tr
                 th.bg-crema-claro.text-start
-                  b Factores externos: 
-                  | amenazas. Factores del entorno que pueden perjudicar el
+                  p.mb-0 #[b Factores externos:] amenazas. Factores del entorno que pueden perjudicar el
                 td.bg-white
                   b Estrategia FA (Defensiva): 
                   | usar fortalezas para mitigar amenazas.
@@ -273,14 +270,14 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img19.png', alt='Imagen representativa de estrategia')
           .col-md-6.mb-4.mb-md-0
-            h4 Objetivos estratégicos
-            p.mb-4 Las características clave son los criterios que determinan si un objetivo estratégico está bien formulado y puede ser gestionado y alcanzado de manera efectiva:
+            p Las características clave son los criterios que determinan si un objetivo estratégico está bien formulado y puede ser gestionado, medido y alcanzado de manera efectiva dentro de la organización. A continuación, se presenta cada uno de ellos:
             ul.lista-ul
-              li #[b • Claridad:] específico y comprensible para todos los niveles.
-              li #[b • Coherencia:] alineado con la visión y la misión organizacional.
-              li #[b • Medible:] indicadores para evaluar progreso y cumplimiento.
-              li #[b • Alcanzable:] realista según capacidades y recursos.
-              li #[b • Temporalidad:] definido dentro de un marco de tiempo claro.
+              li #[b • Claridad:] el objetivo debe ser específico y comprensible para todos los niveles de la organización.
+              li #[b • Coherencia:] el objetivo debe estar alineado con la visión y la misión de la organización.
+              li #[b • Medible:] es necesario establecer indicadores que permitan evaluar su progreso y nivel de cumplimiento. 
+              li #[b • Alcanzable:] el objetivo debe ser realista según las capacidades y los recursos disponibles en la organización. 
+              li #[b • Temporalidad:] el objetivo debe estar definido dentro de un marco de tiempo claro y determinado.
+            p.mb-0 Los objetivos estratégicos son esenciales en cualquier industria o sector donde se busque crecimiento sostenible y alineación organizacional. En general, son herramientas universales que guían a las organizaciones hacia el cumplimiento de sus metas a largo plazo.
 
       .py-3.py-md-4(titulo="Objetivos tácticos")
         .row.align-items-center.justify-content-center
@@ -288,14 +285,14 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img20.png', alt='Imagen representativa de táctica')
           .col-md-6
-            h4 Objetivos tácticos
-            p Son metas específicas de corto plazo, establecidas por gerencias medias para ejecutar los planes generales. Algunas características son:
+            p Son metas específicas de corto plazo, establecidas por las gerencias medias o de áreas y departamentos de la organización, para ejecutar los planes estratégicos generales de una organización. Algunas de sus características son:
             ul.lista-ul
-              li #[b • A corto/mediano plazo:] enfoque en acciones inmediatas o trimestrales.
-              li #[b • Alineados con la estrategia:] contribuyen directamente a los objetivos macros.
-              li #[b • Operativos y enfocados en la acción:] definen el qué, cómo, cuándo y quién.
-              li #[b • Departamentales:] dirigidos a áreas específicas (finanzas, mercadeo, etc.).
-              li #[b • Alcanzables:] diseñados según recursos y capacidades actuales.
+              li #[b • A corto/mediano plazo:] generalmente se enfocan en acciones inmediatas o trimestrales.
+              li #[b • Alineados con la estrategia:] contribuyen directamente al cumplimiento de los objetivos estratégicos de la empresa.
+              li #[b • Operativos y enfocados en la acción:] definen el qué, cómo, cuándo y quién realizará las tareas.
+              li #[b • Departamentales o funcionales:] suelen estar dirigidos a áreas específicas finanzas, mercadeo, recursos humanos, entre otras.
+              li #[b • Alcanzables y realistas:] se diseñan de acuerdo con los recursos y capacidades actuales de la organización.
+            p.mb-0 Los objetivos tácticos permiten adaptar el plan general a las circunstancias cambiantes del entorno, convirtiendo la estrategia a largo plazo en acciones tangibles en un tiempo menor a 1 año.
 
       .py-3.py-md-4(titulo="Objetivos operativos")
         .row.align-items-center.justify-content-center
@@ -303,13 +300,14 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img21.png', alt='Imagen representativa de operación')
           .col-md-6.mb-4.mb-md-0
-            h4 Objetivos operativos
-            p Metas de corto plazo (diarias o mensuales) para mejorar la eficiencia y rendimiento constante. Sus rasgos principales:
+            p Son metas específicas, medibles y de corto plazo establecidas como inmediatas que pueden ser diarias, semanales, mensuales, establecidas por la gerencia media para mejorar la eficiencia, productividad y rendimiento constante de una organización. Sus características son:
             ul.lista-ul
-              li #[b • Medibles:] utilizan métricas claras (porcentaje, tiempo o cantidad).
-              li #[b • Corto plazo:] metas dentro de un periodo inmediato.
-              li #[b • Viables:] consideran el presupuesto y talento disponible.
-              li #[b • Observables:] describen conductas o resultados directos verificables.
+              li #[b • Medibles:] utilizan métricas claras para determinar el nivel de logro, cuantificando resultados como porcentaje, tiempo o cantidad.
+              li #[b • Corto plazo:] se enfocan en alcanzar metas dentro de un periodo inmediato.
+              li #[b • Orientados a la acción:] desglosan las metas estratégicas en tareas factibles y delegables a equipos o departamentos.
+              li #[b • Viables y realistas:] deben ser alcanzables considerando los recursos humanos, técnicos y presupuesto disponibles.
+              li #[b • Alineados estratégicamente:] apoyan directamente la ejecución de los objetivos tácticos y estratégicos más amplios de la empresa.
+              li #[b • Observables:] describen conductas o resultados directos que pueden verificarse.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.4 Gestión por procesos
@@ -333,7 +331,7 @@
         figure
           img(src="@/assets/curso/Temas/tema2/img24.png", alt="Imagen decorativa")
       .col-lg-8
-        p.mb-3 La gestión por procesos, conocida como BPM (por sus siglas en inglés, Business Process Management), es un enfoque administrativo que organiza a la empresa a través de actividades interrelacionadas, orientadas a crear valor para el cliente final y lograr objetivos estratégicos. Este enfoque busca la eficiencia operativa, la mejora continua y la eliminación de barreras funcionales, tratando la organización como un flujo horizontal de trabajo.
+        p.mb-3 La gestión por procesos, conocida como BPM (por sus siglas en inglés, #[i Business Process Management]), es un enfoque administrativo que organiza a la empresa a través de actividades interrelacionadas, orientadas a crear valor para el cliente final y lograr objetivos estratégicos. Este enfoque busca la eficiencia operativa, la mejora continua y la eliminación de barreras funcionales, tratando la organización como un flujo horizontal de trabajo.
         .row.justify-content-center
           .col-lg-12
             .cajon
@@ -464,12 +462,12 @@
           .col-md-6.mb-4.mb-md-0
             p.mb-4 Son los componentes esenciales que estructuran y hacen posible la ejecución de cada proceso. Su correcta articulación garantiza actividades ordenadas, eficientes y orientadas a la mejora continua. Entre los principales elementos se encuentran:
             ul.lista-ul
-              li #[b • Entradas (Inputs):] materias primas, información o recursos necesarios para iniciar el proceso.
+              li #[b • Entradas (#[i Inputs]):] materias primas, información o recursos necesarios para iniciar el proceso.
               li #[b • Actividades:] tareas secuenciales que transforman las entradas en resultados esperados.
-              li #[b • Salidas (Outputs):] producto o servicio final entregado al cliente interno o externo.
+              li #[b • Salidas (#[i Outputs]):] producto o servicio final entregado al cliente interno o externo.
               li #[b • Recursos:] personas, tecnología y materiales utilizados durante el proceso.
-              li #[b • Indicadores de rendimiento (KPIs):] métricas para medir eficiencia, calidad y cumplimiento de objetivos.
-              li #[b • Process Owner (responsable del proceso):] persona encargada de la gestión, diseño y mejora.
+              li #[b • Indicadores de rendimiento (#[i KPIs]):] métricas para medir eficiencia, calidad y cumplimiento de objetivos.
+              li #[b • #[i Process Owner] (responsable del proceso):] persona encargada de la gestión, diseño y mejora.
 
       .py-3.py-md-4(titulo="Características de la gestión por procesos")
         .row.align-items-center.justify-content-center
@@ -477,7 +475,7 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img29.png', alt='Imagen representativa de táctica')
           .col-md-6
-            p Las características del BPM (Business Process Management) reflejan la integralidad de su interacción y su orientación permanente hacia el logro de los objetivos estratégicos. Reconocerlas permite comprender por qué este enfoque optimiza el funcionamiento organizacional. Entre las principales características se encuentran:
+            p Las características del BPM (#[i Business Process Management]) reflejan la integralidad de su interacción y su orientación permanente hacia el logro de los objetivos estratégicos. Reconocerlas permite comprender por qué este enfoque optimiza el funcionamiento organizacional. Entre las principales características se encuentran:
             ul.lista-ul
               li #[b • Orientación al cliente:] todos los esfuerzos se enfocan en satisfacer sus necesidades.
               li #[b • Transversalidad:] cruza funcionalmente los departamentos, mejorando la colaboración.
@@ -496,7 +494,7 @@
                 .col-auto
                   img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
                 .col
-                  p.mb-0 #[b Gestión de marketing.]
+                  p.mb-0 #[b Gestión de #[i marketing.]]
               
               .row.mb-3.align-items-center
                 .col-auto

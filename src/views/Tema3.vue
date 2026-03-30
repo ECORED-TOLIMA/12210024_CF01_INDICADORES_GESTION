@@ -83,7 +83,7 @@
                   figure
                     img(src="@/assets/curso/Temas/tema3/img4.png" alt="Icono rendimiento")
                 .col-12.col-md-11
-                  p.mb-0 En este proceso se establecen los objetivos a mediano y largo plazo de una organización, se definen las acciones concretas para alcanzarlos y se evalúa el impacto en relación con las metas definidas. Esta proyección organizacional en el tiempo corresponde a los objetivos estratégicos que son desglosados en diferentes niveles con el fin de que sean monitoreados, medidos y alcanzados. 
+                  p.mb-0 El cumplimiento de estas características garantiza que los indicadores diseñados sean instrumentos confiables y pertinentes para la gestión organizacional. Un indicador que no cumpla con alguna de ellas puede generar información imprecisa, dificultar el seguimiento de los objetivos y afectar la calidad de las decisiones adoptadas por la organización.
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Clasificación de indicadores
@@ -104,33 +104,33 @@
               .col-6
                 img(src='@/assets/curso/Temas/tema3/img6.png' alt='Icono')
             h4.text-center Indicadores de eficacia
-            p.text-center miden el grado de cumplimiento de los objetivos, metas fijadas y resultado obtenidos.
+            p.text-center Miden el grado de cumplimiento de los objetivos, metas fijadas y resultado obtenidos.
 
           .tarjeta.tarjeta-blanca-custom.p-4
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/Temas/tema3/img7.png' alt='Icono')
             h4.text-center Indicadores de eficiencia
-            p.text-center evalúan la relación entre los resultados obtenidos y los recursos utilizados (tiempo, dinero, personal).
+            p.text-center Evalúan la relación entre los resultados obtenidos y los recursos utilizados (tiempo, dinero, personal).
 
           .tarjeta.tarjeta-blanca-custom.p-4
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/Temas/tema3/img8.png' alt='Icono')
             h4.text-center Indicadores de productividad
-            p.text-center miden la cantidad de recursos consumidos en relación con la producción.
+            p.text-center Miden la cantidad de recursos consumidos en relación con la producción.
           .tarjeta.tarjeta-blanca-custom.p-4
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/Temas/tema3/img9.png' alt='Icono')
             h4.text-center Indicadores de calidad
-            p.text-center miden los atributos, características o nivel de satisfacción del cliente frente a un proceso o producto.
+            p.text-center Miden los atributos, características o nivel de satisfacción del cliente frente a un proceso o producto.
           .tarjeta.tarjeta-blanca-custom.p-4
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/Temas/tema3/img10.png' alt='Icono')
             h4.text-center Indicadores de efectividad
-            p.text-center combinan la eficiencia y la eficacia para medir el impacto de la gestión.
+            p.text-center Combinan la eficiencia y la eficacia para medir el impacto de la gestión.
     .titulo.mb-4
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Según el nivel de gestión
@@ -139,7 +139,7 @@
         p.mb-3 Esta clasificación determina el nivel jerárquico en el que opera el indicador dentro de la organización, desde la estrategia hasta la operación. Entre los principales se encuentran:
         .row.justify-content-center
           .col-lg-12.mb-4
-            .cajon.color.p-4.col
+            .tarjeta.BG02.p-4
               .row.justify-content-center.align-items-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
@@ -147,7 +147,7 @@
                 .col-12.col-md-11
                   p.mb-0 #[b Indicadores estratégicos: ]evalúan el cumplimiento de los objetivos de largo plazo y el impacto global de la organización.
           .col-lg-12
-            .cajon.color.p-4.col
+            .tarjeta.BG02.p-4
               .row.justify-content-center.align-items-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
@@ -310,8 +310,8 @@
           p(numero="A" titulo="Medición de objetivos y metas") Permiten evaluar el progreso de los objetivos estratégicos, proporcionando información objetiva y transparente, fomentando la cultura de la medición del desempeño, reduciendo la subjetividad y promoviendo la creatividad.
           p(numero="B" titulo="Objetividad y transparencia") Fomentan una cultura basada en la medición objetiva del desempeño, estos indicadores ofrecen resultados en tiempo real, proporcionando información sobre la empresa que puede ser desconocida y utilizarse para mejorar la gestión y el servicio al cliente.
           p(numero="C" titulo="Alineamiento y enfoque") Aseguran que los esfuerzos del equipo de trabajo están alineados con las metas organizacionales comunicando prioridades de forma clara y facilitando el seguimiento constante de las áreas de la empresa ayuda a prevenir situaciones problemáticas y fomenta la transparencia, la responsabilidad y la ética.
-          p(numero="D" titulo="Mejora de la eficiencia") los indicadores permiten identificar cuellos de botella y áreas de oportunidad, promoviendo la mejora continua de los procesos organizacionales.
-          p(numero="E" titulo="Control de gestión y cumplimiento") facilitan un monitoreo constante del desempeño organizacional, el cumplimiento de metas, los estándares de calidad y los requisitos normativos establecidos.
+          p(numero="D" titulo="Mejora de la eficiencia") Los indicadores permiten identificar cuellos de botella y áreas de oportunidad, promoviendo la mejora continua de los procesos organizacionales.
+          p(numero="E" titulo="Control de gestión y cumplimiento") Facilitan un monitoreo constante del desempeño organizacional, el cumplimiento de metas, los estándares de calidad y los requisitos normativos establecidos.
       .col-6.col-lg-3
         figure
           img(src="@/assets/curso/Temas/tema3/img26.png", alt="Imagen decorativa")
@@ -337,7 +337,7 @@
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h5.mb-4 Medición de objetivos de la organización.
+            h5.mb-4 Medición de objetivos de la organización
             p Los indicadores mantienen los objetivos estratégicos presentes en cada decisión, eliminando la necesidad de esperar cierres periódicos. Al asignar un indicador a un responsable, cada persona conoce las metas que debe alcanzar y puede realizar ajustes de manera oportuna.
           .col-md-6
             figure
@@ -401,10 +401,10 @@
           .col-lg-12
             .cajon.color.p-4.col
               .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
+                .col-lg-2.d-none.d-lg-block
                   figure
-                    img(src="@/assets/curso/Temas/tema3/img36.png" alt="Icono rendimiento")
-                .col-12.col-md-11
+                    img(src="@/assets/curso/Temas/tema3/img36.png", style='width: 100px').m-auto
+                .col-lg-10
                   p.mb-0 El control administrativo se desarrolla a través de diferentes mecanismos que implican la obtención de información sobre el desempeño organizacional y sus resultados. Con base en esta información, se implementan las correcciones pertinentes para atender las desviaciones identificadas y mantener la eficiencia operativa de la organización.
     .row.justify-content-center.align-items-center.mb-4
 
@@ -414,10 +414,10 @@
           .col-lg-12
             .cajon
               .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
+                .col-lg-2.d-none.d-lg-block
                   figure
-                    img(src="@/assets/curso/Temas/tema3/img38.png" alt="Icono rendimiento")
-                .col-12.col-md-11
+                    img(src="@/assets/curso/Temas/tema3/img38.png", style='width: 100px').m-auto
+                .col-lg-10
                   p.mb-0 Para que el control sea efectivo, es indispensable contar con indicadores de gestión que actúen como instrumentos de medición objetivos y verificables. Sin indicadores, el control se convierte en una evaluación subjetiva que dificulta la toma de decisiones oportunas y fundamentadas. En consecuencia, los indicadores y el control administrativo son elementos inseparables dentro de la gestión organizacional.
       .col-lg-3
         figure
@@ -463,37 +463,38 @@
       .col-lg-3
         figure
           img(src="@/assets/curso/Temas/tema3/img41.png", alt="Imagen decorativa") 
-    p.mb-4 El proceso de control administrativo se desarrolla a través de cuatro fases interrelacionadas que garantizan la verificación sistemática del desempeño organizacional. Cada fase cumple una función específica y contribuye a que el control sea un proceso ordenado, objetivo y orientado a la mejora continua. A continuación, se presentan cada una de ellas:
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Fase 1 Establecimiento de los estándares:] 
-              | Se definen y precisan los parámetros de medición indispensables para conocer el nivel de desempeño esperado. Sin estándares claramente establecidos, no es posible determinar si los resultados son satisfactorios. Los más utilizados son de cantidad, calidad, tiempo y costo.
-        
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Fase 2 Evaluación del desempeño:] 
-              | Se miden los procesos organizacionales aplicando los estándares previamente definidos. Su propósito es obtener información objetiva y comparable que permita determinar el nivel real de cumplimiento en cada área de la organización.
+    .tarjeta--fondo4.px-5
+      p.mb-4 El proceso de control administrativo se desarrolla a través de cuatro fases interrelacionadas que garantizan la verificación sistemática del desempeño organizacional. Cada fase cumple una función específica y contribuye a que el control sea un proceso ordenado, objetivo y orientado a la mejora continua. A continuación, se presentan cada una de ellas:
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Fase 1, Establecimiento de los estándares:] 
+                | Se definen y precisan los parámetros de medición indispensables para conocer el nivel de desempeño esperado. Sin estándares claramente establecidos, no es posible determinar si los resultados son satisfactorios. Los más utilizados son de cantidad, calidad, tiempo y costo.
           
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Fase 3 Comparación del desempeño:]  
-              | Se contrastan las metas de desempeño esperadas con los resultados obtenidos. Para ello, se toman como referencia los estándares definidos en la primera fase, con el fin de identificar el margen de cumplimiento y las desviaciones presentadas.
-          
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 #[b Fase 4 Acción correctiva:] 
-              | Se elabora un informe que documenta el proceso de evaluación y se planifican las acciones necesarias para mejorar los procesos. Para ello, se determina en qué niveles de la estructura organizacional se originan los problemas y cuáles son sus posibles soluciones.
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Fase 2, Evaluación del desempeño:] 
+                | Se miden los procesos organizacionales aplicando los estándares previamente definidos. Su propósito es obtener información objetiva y comparable que permita determinar el nivel real de cumplimiento en cada área de la organización.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Fase 3, Comparación del desempeño:]  
+                | Se contrastan las metas de desempeño esperadas con los resultados obtenidos. Para ello, se toman como referencia los estándares definidos en la primera fase, con el fin de identificar el margen de cumplimiento y las desviaciones presentadas.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 #[b Fase 4, Acción correctiva:] 
+                | Se elabora un informe que documenta el proceso de evaluación y se planifican las acciones necesarias para mejorar los procesos. Para ello, se determina en qué niveles de la estructura organizacional se originan los problemas y cuáles son sus posibles soluciones.
           
     .row.justify-content-center.mb-4
           .col-lg-12
@@ -566,7 +567,7 @@
           img(src="@/assets/curso/Temas/tema3/img48.png", alt="alt")
       .col-lg-8.col-md-7
         .p-4(style="background-color: #DEEAF1;")
-          p.mb-0 La implementación de indicadores, conocidos como KPI (Key Performance Indicator, por sus siglas en inglés), permite medir el desempeño real frente a los objetivos, facilitando la toma de decisiones basada en datos, la mejora continua de los procesos y el alineamiento estratégico de la organización. Entre sus beneficios principales se destacan la optimización de recursos, la mayor transparencia en la gestión, la detección temprana de problemas y el fomento de una cultura de eficiencia organizacional. A continuación, se presentan los principales beneficios de su implementación:
+          p.mb-0 El alcance de los indicadores determina su nivel de impacto dentro de los procesos organizacionales, permitiendo evidenciar tanto los aspectos positivos del desempeño como las oportunidades de mejora que requieren intervención. Comprender este alcance es fundamental para diseñar indicadores pertinentes y alineados con los objetivos de cada área. Por esta razón, es importante considerar los siguientes niveles:
     .row.mb-3
       .col-sm-7.col-lg-4.mb-5.mb-lg-0
         .tarjeta--boton.color-acento-botones.p-4.h-100
@@ -610,7 +611,7 @@
         .row.justify-content-center
           .col-lg-12
             .cajon.color.p-4.col
-              .row.justify-content-center.align-items-center
+              .row.justify-content-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
                     img(src="@/assets/curso/Temas/tema3/img53.png" alt="Icono rendimiento")
@@ -625,12 +626,12 @@
     .row.justify-content-center.mb-5
       .col-lg-7
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Indicadores de eficacia") miden el logro de los objetivos, es decir, qué tanto se consiguió la meta, independientemente de los recursos. Ejemplo: cantidad de productos producidos/cantidad de productos planificados.
-          p(numero="2" titulo="Indicadores de eficiencia") miden la relación entre los resultados obtenidos y los recursos utilizados en cuanto a costo, tiempo, personal. Ejemplo: tiempo promedio de producción por unidad.
-          p(numero="3" titulo="Indicadores de calidad")  evalúan el cumplimiento de los estándares y satisfacción de los clientes. Ejemplo: porcentaje de productos con defectos.
-          p(numero="4" titulo="Indicadores de producción/logística") cuantifican la operatividad, como el nivel de inventario, tiempos de entrega o recepción de mercancía. Ejemplo: tiempo promedio de entrega de pedidos y porcentaje de despachos realizados a tiempo.
-          p(numero="5" titulo="Indicadores de recursos humanos") miden la retención de personal, productividad o clima laboral. Ejemplo: tasa de rotación de personal, tasa de ausentismo, tasa de promoción del personal.
-          p(numero="6" titulo="Indicadores financieros")  evalúan la salud económica de la organización, considerando el margen de utilidad, los ingresos por empleado y el retorno de inversión. Ejemplo: porcentaje de rentabilidad neta sobre ventas y relación entre ingresos operacionales y costos totales.
+          p(numero="1" titulo="Indicadores de eficacia") Miden el logro de los objetivos, es decir, qué tanto se consiguió la meta, independientemente de los recursos. Ejemplo: cantidad de productos producidos/cantidad de productos planificados.
+          p(numero="2" titulo="Indicadores de eficiencia") Miden la relación entre los resultados obtenidos y los recursos utilizados en cuanto a costo, tiempo, personal. Ejemplo: tiempo promedio de producción por unidad.
+          p(numero="3" titulo="Indicadores de calidad")  Evalúan el cumplimiento de los estándares y satisfacción de los clientes. Ejemplo: porcentaje de productos con defectos.
+          p(numero="4" titulo="Indicadores de producción/logística") Cuantifican la operatividad, como el nivel de inventario, tiempos de entrega o recepción de mercancía. Ejemplo: tiempo promedio de entrega de pedidos y porcentaje de despachos realizados a tiempo.
+          p(numero="5" titulo="Indicadores de recursos humanos") Miden la retención de personal, productividad o clima laboral. Ejemplo: tasa de rotación de personal, tasa de ausentismo, tasa de promoción del personal.
+          p(numero="6" titulo="Indicadores financieros")  Evalúan la salud económica de la organización, considerando el margen de utilidad, los ingresos por empleado y el retorno de inversión. Ejemplo: porcentaje de rentabilidad neta sobre ventas y relación entre ingresos operacionales y costos totales.
       .col-7.col-lg-3
         figure
           img(src="@/assets/curso/Temas/tema3/img55.png", alt="Imagen decorativa") 

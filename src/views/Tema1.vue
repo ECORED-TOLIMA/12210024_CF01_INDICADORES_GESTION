@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Fundamentos de administración
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-3.mb-3.mb-lg-0
         figure
@@ -114,10 +115,10 @@
           .col-lg-12
             .tarjeta.BG03.p-4
               .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
+                .col-lg-2.d-none.d-lg-block
                   figure
-                    img(src="@/assets/curso/Temas/tema1/img14.png" alt="Icono rendimiento")
-                .col-12.col-md-11
+                    img(src="@/assets/curso/Temas/tema1/img14.png", style='width: 100px').m-auto
+                .col-lg-10
                   p.mb-0 La empresa es una organización económica y jurídica que desarrolla actividades de producción, distribución o prestación de bienes y servicios, con el fin de satisfacer las necesidades de un mercado mediante un beneficio o contraprestación (Tantalean, 2022). De acuerdo con el tipo de organización, dicho beneficio puede ser lucrativo o no lucrativo.
         .py-3
           p.mb-0 Conociendo la definición de empresa como escenario propicio para implementar la administración, a continuación, se abordan cada una de sus etapas conocidas como funciones administrativas, consideradas también las etapas del proceso administrativo que interactúan entre sí para hacer de la empresa un todo funcional, sistémico y productivo.
@@ -341,66 +342,57 @@
                     img(src="@/assets/curso/Temas/tema1/img21.png" alt="Icono rendimiento")
                 .col-12.col-md-11
                   p.mb-0 Las empresas en Colombia se clasifican a partir de cinco criterios fundamentales que permiten identificar su naturaleza, dimensión y propósito dentro del entorno económico. Conocer estas clasificaciones facilita la comprensión de cómo se estructura cada organización y orienta el diseño de los indicadores de gestión más pertinentes para medir su desempeño. A continuación, se presentan cada uno de estos criterios:
-    .row.justify-content-center.align-items-stretch
-      //- Tarjeta 1
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img22.png', alt='Icono')
-          h4 Según su tamaño
-          p Clasifica las empresas por el número de trabajadores o nivel de ingresos en UVT: microempresas, pequeñas, medianas y grandes.
+    .tarjeta--fondo1.px-5
+      .row.justify-content-center.align-items-stretch
+        //- Tarjeta 1
+        .col-lg-4.col-md-6.mb-4
+          .tarjeta.color-primario.p-4.h-100
+            .row.mb-3
+              .col-2
+                figure
+                  img(src='@/assets/curso/Temas/tema1/img22.png', alt='Icono')
+            h4 Según su tamaño
+            p Clasifica las empresas por el número de trabajadores o nivel de ingresos en UVT: microempresas, pequeñas, medianas y grandes.
 
-      //- Tarjeta 2
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img23.png', alt='Icono')
-          h4 Según su sector de actividad
-          p Agrupa las empresas según la actividad económica que desarrollan: sector primario, secundario, terciario y cuaternario.
+        //- Tarjeta 2
+        .col-lg-4.col-md-6.mb-4
+          .tarjeta.color-primario.p-4.h-100
+            .row.mb-3
+              .col-2
+                figure
+                  img(src='@/assets/curso/Temas/tema1/img23.png', alt='Icono')
+            h4 Según su sector de actividad
+            p Agrupa las empresas según la actividad económica que desarrollan: sector primario, secundario, terciario y cuaternario.
 
-      //- Tarjeta 3
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img24.png', alt='Icono')
-          h4 Según la propiedad del capital
-          p Clasifica las empresas según el origen de sus recursos: públicas, privadas o mixtas, según quien ejerce la propiedad y el control organizacional.
+        //- Tarjeta 3
+        .col-lg-4.col-md-6.mb-4
+          .tarjeta.color-primario.p-4.h-100
+            .row.mb-3
+              .col-2
+                figure
+                  img(src='@/assets/curso/Temas/tema1/img24.png', alt='Icono')
+            h4 Según la propiedad del capital 
+            p Clasifica las empresas según el origen de sus recursos: públicas, privadas o mixtas, según quien ejerce la propiedad y el control organizacional.
 
-      //- Tarjeta 4
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img25.png', alt='Icono')
-          h4 Según la propiedad del capital
-          p Distingue las empresas por el origen de sus recursos: públicas, privadas o mixtas, según quien ejerce la propiedad y el control organizacional.
+        //- Tarjeta 5
+        .col-lg-4.col-md-6.mb-4
+          .tarjeta.color-primario.p-4.h-100
+            .row.mb-3
+              .col-2
+                figure
+                  img(src='@/assets/curso/Temas/tema1/img26.png', alt='Icono')
+            h4 Según su ámbito de actuación
+            p Identifica el alcance geográfico de la empresa: local, nacional o multinacional, según su cobertura en el territorio colombiano.
 
-      //- Tarjeta 5
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img26.png', alt='Icono')
-          h4 Según su ámbito de actuación
-          p Identifica el alcance geográfico de la empresa: local, nacional o multinacional, según su cobertura en el territorio colombiano.
-
-      //- Tarjeta 6
-      .col-lg-4.col-md-6.mb-4
-         .tarjeta.color-primario.p-4.h-100
-          .row.mb-3
-            .col-2
-              figure
-                img(src='@/assets/curso/Temas/tema1/img27.png', alt='Icono')
-          h4 Según su forma jurídica
-          p Define la estructura legal de la empresa: empresario individual, sociedades mercantiles, cooperativas o entidades sin ánimo de lucro.
+        //- Tarjeta 6
+        .col-lg-4.col-md-6.mb-4
+          .tarjeta.color-primario.p-4.h-100
+            .row.mb-3
+              .col-2
+                figure
+                  img(src='@/assets/curso/Temas/tema1/img27.png', alt='Icono')
+            h4 Según su forma jurídica
+            p Define la estructura legal de la empresa: empresario individual, sociedades mercantiles, cooperativas o entidades sin ánimo de lucro.
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.BG04.p-4
@@ -411,12 +403,13 @@
             .col-11.col-md-11
               p.mb-0 Las clasificaciones anteriores constituyen el marco general para identificar los tipos de empresa desde el enfoque económico y administrativo. No obstante, en Colombia, a partir de 2019, el Decreto 957 expedido por el Ministerio de Tecnologías de la Información y la Comunicación estableció una clasificación adicional basada en rangos de Unidades de Valor Tributario, conocidas como UVT, diferenciada por sector económico.
     p.mb-5 A continuación, se presenta la tabla con los valores de referencia para el año 2026, donde 1 UVT equivale a $52.374 pesos, diferenciados por sector económico:
-    .row
-      .col-1
+    
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
+      h5 Tabla 1.
+      span Evolución cronológica del derecho a la movilidad para personas con discapacidad física
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 1.
-          span Clasificación de empresas en Colombia por ingresos en UVT, año 2026
         .tabla-a.color-acento-contenido
           table
             thead

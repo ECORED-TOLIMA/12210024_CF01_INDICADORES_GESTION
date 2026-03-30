@@ -18,7 +18,7 @@
         .row.justify-content-center.mb-3
           .col-lg-12
             .cajon
-              .row.justify-content-center.align-items-center
+              .row.justify-content-center
                 .col-1.col-md-1.mb-1.mb-md-0
                   figure
                     img(src="@/assets/curso/Temas/tema4/img2.png" alt="Icono rendimiento")
@@ -67,10 +67,10 @@
       .col-lg-9
         p.mb-3 Esta vinculación garantiza que los recursos invertidos en la medición sean pertinentes y generen valor para la toma de decisiones. De igual modo, permite que cada área de la organización cuente con instrumentos de seguimiento alineados con los objetivos estratégicos, tácticos y operativos, lo que evita la medición de aspectos irrelevantes o desconectados de la gestión organizacional.
         .row
-          .col-1.col-lg-1.mb-1.mb-lg-0
+          .col-lg-2.d-none.d-lg-block
             figure
-              img.mx-auto.d-block(src="@/assets/curso/Temas/tema4/img9.png" alt="Imagen modelo SECI")
-          .col-lg-11
+              img.mx-auto.d-block(src="@/assets/curso/Temas/tema4/img9.png", style='width: 100px').m-auto
+          .col-lg-10
             .cajon
               p.mb-0 En consecuencia, diseñar indicadores con base en objetivos claros y verificables fortalece la coherencia del sistema de gestión y facilita la identificación oportuna de desviaciones. Este proceso se desarrolla a través de cinco pasos que orientan la construcción técnica del indicador, los cuales se presentan a continuación:
     .row.justify-content-center.mb-5
@@ -80,35 +80,35 @@
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Identificar el objetivo:] 
+              p.mb-0 #[b Identificar el objetivo] 
               | Se define la meta que se quiere alcanzar, asegurando que sea clara, medible y que cuente con un marco de tiempo determinado. 
         
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Definir la intención de medición:] 
+              p.mb-0 #[b Definir la intención de medición] 
               | Se determina qué aspecto del objetivo se medirá, ya sea en términos de cantidad, calidad o tiempo, según las necesidades del proceso. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Formular el indicador:]  
+              p.mb-0 #[b Formular el indicador]  
               | Se construye una fórmula de cálculo clara, como el porcentaje de cobertura o la tasa de variación. El indicador puede expresar una relación entre lo real y lo esperado, o formularse como una afirmación en el caso de los indicadores cualitativos. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Establecer la línea de base y la meta:] 
+              p.mb-0 #[b Establecer la línea de base y la meta] 
               | Se define el punto de partida del proceso y el nivel de desempeño que se desea alcanzar en el período establecido. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Definir las fuentes de información y la periodicidad:] 
+              p.mb-0 #[b Definir las fuentes de información y la periodicidad] 
               | Se especifica el origen de los datos necesarios para calcular el indicador y la frecuencia con que se realizará la medición: mensual, trimestral o anual.
     .row.justify-content-center.align-items-center.mb-5
       .col-3.col-lg-3.mb-3.mb-lg-0
@@ -130,10 +130,10 @@
           .col-lg-12
             .cajon
               .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
+                .col-lg-2.d-none.d-lg-block
                   figure
                     img(src="@/assets/curso/Temas/tema4/img12.png" alt="Icono rendimiento")
-                .col-12.col-md-11
+                .col-lg-10
                   p.mb-0 La metodología para la construcción de indicadores es el proceso sistemático que permite transformar los objetivos organizacionales en instrumentos de medición precisos, válidos y aplicables. Su aplicación garantiza que cada indicador responda a una necesidad real de la gestión, sea comprensible para todos los responsables y esté alineado con los estándares definidos en la planeación de los procesos.
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-4.mb-4.mb-lg-0
@@ -159,50 +159,50 @@
             img(src='@/assets/curso/Temas/tema4/img14_1.png', alt='Matriz RACI para dispositivos móviles')
             figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www.funcionpublica.gov.co/documents/d/quest/guia-para-la-construccion-y-analisis-de-indicadores-de-gestion-version-4-mayo-2018-pdf?download=true
     p.mb-4 De acuerdo con la figura anterior para un diseño apropiado de indicadores se hace necesario tener en cuenta lo siguiente:
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 Se toma el verbo y el sujeto del objetivo.
-        
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 Se invierte su orden y el verbo se conjuga en participio.
+    .tarjeta--fondo5.px-5
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .tarjeta.tarjeta--azul-suave.p-4.p-lg-4
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 Se toma el verbo y el sujeto del objetivo.
           
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 Se incluyen elementos de la parte descriptiva del objetivo que den cuenta de la localización, período de tiempo e incluso nombre específico de la intervención asociada.
-          
-          .row.mb-4
-            .col-auto
-              img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-            .col
-              p.mb-0 No se deben incluir elementos cuantitativos del objetivo ya que estos únicamente sirven como referencia para identificar la meta o el valor objetivo del indicador en el tiempo.
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 Se invierte su orden y el verbo se conjuga en participio.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 Se incluyen elementos de la parte descriptiva del objetivo que den cuenta de la localización, período de tiempo e incluso nombre específico de la intervención asociada.
+            
+            .row.mb-4
+              .col-auto
+                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
+              .col
+                p.mb-0 No se deben incluir elementos cuantitativos del objetivo ya que estos únicamente sirven como referencia para identificar la meta o el valor objetivo del indicador en el tiempo.
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.3 Ficha técnica del indicador
     .row.justify-content-center.align-items-center.mb-4
-
-      .col-lg-3
+      .col-lg-4
         figure
           img(src="@/assets/curso/Temas/tema4/img15.png", alt="Imagen decorativa")  
-      .col-lg-9
+      .col-lg-8
         p.mb-3 La ficha técnica del indicador es el documento estructurado que define, estandariza y detalla los elementos necesarios para medir el desempeño de un proceso, proyecto o meta organizacional. Su elaboración garantiza que cada indicador sea comprendido, aplicado y evaluado de manera uniforme por todos los responsables de la organización, independientemente del área o nivel jerárquico al que pertenezcan. De este modo, la ficha técnica se convierte en el instrumento que da vida operativa al indicador, asegurando su consistencia y trazabilidad en el tiempo.
         .row.justify-content-center.mb-3
           .col-lg-12
             .cajon
               .row.justify-content-center.align-items-center
-                .col-1.col-md-1.mb-1.mb-md-0
+                .col-lg-2.d-none.d-lg-block
                   figure
-                    img(src="@/assets/curso/Temas/tema4/img16.png" alt="Icono rendimiento")
-                .col-12.col-md-11
+                    img(src="@/assets/curso/Temas/tema4/img16.png", style='width: 100px').m-auto
+                .col-lg-10
                   p.mb-0 Asimismo, la ficha técnica facilita la inducción del personal nuevo, ya que consolida en un solo documento toda la información necesaria para calcular, interpretar y reportar el indicador. Su uso permanente permite identificar desviaciones frente a las metas establecidas, adoptar acciones correctivas oportunas y mantener un seguimiento continuo del desempeño organizacional. En consecuencia, diseñar una ficha técnica completa y bien estructurada es una condición indispensable para implementar un sistema de indicadores confiable y efectivo.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -288,47 +288,47 @@
           table
             thead
               tr
-                th(colspan='3').bg-naranja.text-white.text-center.h4 FICHA TÉCNICA DEL INDICADOR
+                th(colspan='3').text-center.h4 FICHA TÉCNICA DEL INDICADOR
             tbody
               tr
-                th.bg-crema-claro.text-start.w-25 #[b Nombre del indicador]
+                td #[b Nombre del indicador]
                 td(colspan='2') Establecer el nombre que identifique el resultado que se quiere obtener.
               tr
-                th.bg-crema-claro.text-start #[b Objetivo]
+                td #[b Objetivo]
                 td(colspan='2') Propósito y razón de ser del indicador. Debe responder las preguntas ¿para qué? ¿con qué?
               tr
-                th(rowspan='2').bg-crema-claro.text-start #[b Fórmula del cálculo]
+                td(rowspan='2') #[b Fórmula del cálculo]
                 td(rowspan='2') Establece la fórmula matemática para calcular el indicador.
-                td.bg-crema-claro.border-bottom #[b Numerador:] corresponde a la primera parte de la definición operacional (resultados obtenidos o reales).
+                td.border-bottom #[b Numerador:] corresponde a la primera parte de la definición operacional (resultados obtenidos o reales).
               tr
-                td.bg-crema-claro #[b Denominador:] corresponde a la segunda parte de la definición operacional (parámetro o estándar definido).
+                td #[b Denominador:] corresponde a la segunda parte de la definición operacional (parámetro o estándar definido).
               tr
-                th.bg-crema-claro.text-start #[b Fuente de los datos]
+                td #[b Fuente de los datos]
                 td(colspan='2') Se define los medios de verificación, instrumentos o información base para extraer la información.
               tr
-                th.bg-crema-claro.text-start #[b Unidad de medida]
+                td #[b Unidad de medida]
                 td(colspan='2') Se define la forma en que se va a expresar el resultado del indicador.
               tr
-                th.bg-crema-claro.text-start #[b Periodicidad de medición]
+                td #[b Periodicidad de medición]
                 td(colspan='2') Se define el período de la aplicación del indicador o realización de la medida.
               tr
-                th.bg-crema-claro.text-start #[b Responsable de la medición]
+                td #[b Responsable de la medición]
                 td(colspan='2') Se menciona el cargo de la persona responsable de realizar la medición.
               tr
-                th.bg-crema-claro.text-start #[b Meta]
+                td #[b Meta]
                 td(colspan='2') Resultado que se desea alcanzar.
               tr
-                th(rowspan='3').bg-crema-claro.text-start #[b Rango de tolerancia]
-                td.text-center.bg-verde-claro #[b Excelente]
+                td(rowspan='3') #[b Rango de tolerancia]
+                td.text-center #[b Excelente]
                 td Parámetros para determinar el cumplimiento óptimo.
               tr
-                td.text-center.bg-amarillo-claro #[b Aceptable]
+                td.text-center #[b Aceptable]
                 td Parámetros para determinar un cumplimiento parcial.
               tr
-                td.text-center.bg-rojo-claro #[b Inaceptable]
+                td.text-center #[b Inaceptable]
                 td Parámetros que indican incumplimiento o riesgo.
               tr
-                th.bg-crema-claro.text-start #[b Análisis de la medición]
+                td #[b Análisis de la medición del indicador]
                 td(colspan='2') Expresa el significado del resultado del indicador o su interpretación para la toma de decisiones.
     .row.justify-content-center.align-items-center
       .col-10

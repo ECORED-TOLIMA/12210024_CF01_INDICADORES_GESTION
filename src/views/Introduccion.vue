@@ -16,12 +16,12 @@
           img(src="@/assets/curso/Temas/tema1/img1.png", alt="Imagen decorativa")
 
       .col-lg-9
-        .tarjeta.cajon.color-acento-botones.p-4.col
+        .tarjeta.BG01.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-1
-              figure
-                img(src="@/assets/curso/Temas/tema1/img2.svg" alt="Icono rendimiento")
-            .col-lg-11
+            .col-lg-2.d-none.d-lg-block
+              figure(data-aos="fade-down")
+                img(src='@/assets/curso/Temas/tema1/img2.svg', style='width: 100px').m-auto
+            .col-lg-10
               p.mb-0 El propósito de este componente es fortalecer las competencias en la gestión administrativa a través de la implementación de los indicadores de gestión, lo cual inicia con un proceso de fundamentación administrativa hasta llegar al reconocimiento del proceso de su creación o diseño, aspecto crítico en la implementación y comprensión de los indicadores.
         .py-3
           p.mb-3 El desarrollo de estas temáticas se aborda mediante un enfoque teórico-práctico que permite comprender los fundamentos, aplicar metodologías de análisis e implementar estrategias para el diseño, validación y uso de los indicadores de acuerdo con el tipo de actividad y de la organización empresarial.

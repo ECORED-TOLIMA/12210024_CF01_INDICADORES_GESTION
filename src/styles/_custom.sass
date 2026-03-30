@@ -159,6 +159,8 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
         background-color: $verde-botones !important // Punto activo
         border: none
         opacity: 1
+.fa-chevron-right, .fa-chevron-left
+  color: $verde-botones !important
 .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
   background-color: #E9EAEF
 .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
@@ -191,15 +193,8 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
   .acordion__contenido
     p, li, b
       color: $texto-negro !important
-
-.tabla-a.color-acento-contenido
-  thead
-    border-top: 0px
-    th
-      background-color: #f8da92ff !important // Verde menta (Encabezado)
-      color: #12263F !important
-      border: none
-
+.tabla-a th
+    background-color: #FEE7CC
 .linea-tiempo-d.color-secundario
 
   .linea-tiempo-d__item
@@ -393,3 +388,56 @@ $azul-fondo-slyder: #12263F
   border: 8px solid #3C4B6B // Azul oscuro que se ve en el borde de la foto
   border-radius: 5px
 
+.tarjeta--fondo1
+  background-image: url("../assets/curso/Temas/tema1/fondo1.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+.tarjeta--fondo2
+  background-image: url("../assets/curso/Temas/tema2/fondo2.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+  
+.tarjeta--fondo3
+  background-image: url("../assets/curso/Temas/tema2/fondo3.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--fondo4
+  background-image: url("../assets/curso/Temas/tema3/fondo4.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--fondo5
+  background-image: url("../assets/curso/Temas/tema4/fondo5.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
