@@ -246,7 +246,7 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
             .col
-              p #[b Empresario individual o autónomo:] en esta modalidad, una sola persona asume toda la responsabilidad del negocio con su patrimonio personal. Es ideal para actividades comerciales, profesionales o artesanales de pequeña escala.
+              p #[b Empresario individual o autónomo:] en esta modalidad, una sola persona asume toda la responsabilidad del negocio con su patrimonio personal. Es ideal para actividades comerciales, profesionales o artesanales de pequeña escala, como consultores independientes o artesanos.
 
           //- Sociedades mercantiles
           .row.mb-0
@@ -258,16 +258,16 @@
               ul.lista-ul.ps-3
                 li 
                   i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; margin-top: 10px;")
-                  | #[b Sociedad por Acciones Simplificada (SAS):] es la forma jurídica más popular en Colombia. Ofrece gran flexibilidad y no exige capital mínimo.
+                  | #[b Sociedad por Acciones Simplificada (SAS):] es la forma jurídica más popular en Colombia, con el 54 % de las empresas registradas. Permite uno o más socios, no exige capital mínimo y ofrece gran flexibilidad. Es la opción más recomendada para emprendedores y pymes.
                 li 
                   i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; margin-top: 10px;")
-                  | #[b Sociedad Limitada (Ltda.):] requiere entre 2 y 25 socios. La responsabilidad se limita al capital aportado.
+                  | #[b Sociedad Limitada (Ltda.):] requiere entre 2 y 25 socios, con un capital mínimo de 100 salarios mínimos mensuales legales vigentes. La responsabilidad de los socios se limita al capital aportado. El capital debe pagarse en su totalidad al momento de constituirse.
                 li 
                   i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; margin-top: 10px;")
-                  | #[b Sociedad Anónima (S.A.):] requiere al menos 5 socios. El capital se divide en acciones. Ejemplo: Ecopetrol S.A.
+                  | #[b Sociedad Anónima (S.A.):] requiere un capital mínimo de 500 salarios mínimos mensuales legales vigentes y al menos 5 socios. El capital se divide en acciones que pueden ser vendidas más libremente. Es común en empresas de mayor tamaño que buscan financiación externa o planean cotizar en bolsa. Ejemplo Ecopetrol S.A, y Grupo Éxito S.A.
                 li 
                   i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; margin-top: 10px;")
-                  | #[b Sociedad en Comandita:] combina socios colectivos (responsabilidad ilimitada) y comanditarios (responsabilidad limitada).
+                  | #[b Sociedad en Comandita:] combina socios colectivos (con responsabilidad ilimitada) y socios comanditarios (con responsabilidad limitada). Esta forma es menos frecuente en la actualidad, pero puede ser útil en esquemas familiares o contractuales específicos.
 
           //- Empresa Unipersonal
           .row.mb-0
@@ -275,7 +275,7 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
             .col
-              p #[b Empresa Unipersonal:] regulada por la Ley 222 de 1995, permite que una persona natural o jurídica constituya una empresa con personalidad jurídica independiente.
+              p #[b Empresa Unipersonal:] regulada por la Ley 222 de 1995, permite que una persona natural o jurídica constituya una empresa con personalidad jurídica independiente, limitando su responsabilidad al capital aportado. No requiere capital mínimo establecido por ley.
 
           //- Sociedades cooperativas
           .row.mb-0
@@ -283,7 +283,7 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
             .col
-              p #[b Sociedades cooperativas:] constituidas por personas que se asocian para satisfacer necesidades comunes mediante principios de democracia y solidaridad.
+              p #[b Sociedades cooperativas:] estas empresas son constituidas por personas que se asocian para satisfacer necesidades comunes mediante una actividad económica. Operan bajo principios de democracia, solidaridad y participación equitativa. Son especialmente comunes en sectores como transporte, agricultura y servicios.
 
           //- ESAL
           .row.mb-0
@@ -291,7 +291,7 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', alt='Icono', style="width: 20px")
             .col
-              p #[b Organizaciones sin ánimo de lucro (ESAL):] su objetivo principal es generar impacto social o comunitario sin perseguir lucro económico personal.
+              p #[b Organizaciones sin ánimo de lucro (ESAL):] son personas jurídicas constituidas por la libre asociación de personas naturales o jurídicas, cuyo objetivo principal es generar impacto social, comunitario o de beneficio común, sin perseguir lucro económico personal.
       
       .row(titulo="Según el origen de su capital")
         .col-12
@@ -307,13 +307,13 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-3 #[b Empresas privadas:] son aquellas que están a cargo de individuos particulares y que distribuyen sus ganancias entre los socios e inversores.
+              p.mb-3 #[b Empresas privadas:] son aquellas que están a cargo de individuos particulares y que distribuyen sus ganancias entre los socios e inversores.
           .row.mb-0
             .col-auto
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p #[b Empresas mixtas:] son aquellas que pertenecen tanto el sector público como al sector privado, de modo que el Estado está entre sus accionistas, pero no controla la mayoría de la empresa.
+              p #[b Empresas mixtas:] son aquellas que pertenecen tanto el sector público como al sector privado, de modo que el Estado está entre sus accionistas, pero no controla la mayoría de la empresa.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-md-5.mb-4.mb-md-0
         figure
