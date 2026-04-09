@@ -472,28 +472,28 @@
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Fase 1, Establecimiento de los estándares:] 
+                p.mb-0 #[b Fase 1. Establecimiento de los estándares:] 
                 | Se definen y precisan los parámetros de medición indispensables para conocer el nivel de desempeño esperado. Sin estándares claramente establecidos, no es posible determinar si los resultados son satisfactorios. Los más utilizados son de cantidad, calidad, tiempo y costo.
           
             .row.mb-4
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Fase 2, Evaluación del desempeño:] 
+                p.mb-0 #[b Fase 2. Evaluación del desempeño:] 
                 | Se miden los procesos organizacionales aplicando los estándares previamente definidos. Su propósito es obtener información objetiva y comparable que permita determinar el nivel real de cumplimiento en cada área de la organización.
             
             .row.mb-4
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Fase 3, Comparación del desempeño:]  
+                p.mb-0 #[b Fase 3. Comparación del desempeño:]  
                 | Se contrastan las metas de desempeño esperadas con los resultados obtenidos. Para ello, se toman como referencia los estándares definidos en la primera fase, con el fin de identificar el margen de cumplimiento y las desviaciones presentadas.
             
             .row.mb-4
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Fase 4, Acción correctiva:] 
+                p.mb-0 #[b Fase 4. Acción correctiva:] 
                 | Se elabora un informe que documenta el proceso de evaluación y se planifican las acciones necesarias para mejorar los procesos. Para ello, se determina en qué niveles de la estructura organizacional se originan los problemas y cuáles son sus posibles soluciones.
           
     .row.justify-content-center.mb-4
@@ -562,11 +562,11 @@
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Alcance de los indicadores
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.col-md-5.mb-4.mb-md-0
+      .col-lg-3.col-md-5.mb-4.mb-md-0
         figure
           img(src="@/assets/curso/Temas/tema3/img48.png", alt="alt")
-      .col-lg-8.col-md-7
-        .p-4(style="background-color: #DEEAF1;")
+      .col-lg-9
+        .tarjeta.BG02.p-4.py-5
           p.mb-0 El alcance de los indicadores determina su nivel de impacto dentro de los procesos organizacionales, permitiendo evidenciar tanto los aspectos positivos del desempeño como las oportunidades de mejora que requieren intervención. Comprender este alcance es fundamental para diseñar indicadores pertinentes y alineados con los objetivos de cada área. Por esta razón, es importante considerar los siguientes niveles:
     .row.mb-3
       .col-sm-7.col-lg-4.mb-5.mb-lg-0
