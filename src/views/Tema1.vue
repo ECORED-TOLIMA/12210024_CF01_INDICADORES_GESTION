@@ -329,7 +329,7 @@
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
               texto="Pódcast"
-              :audio="require('@/assets/curso/Temas/audio/5.mp3')"
+              :audio="require('@/assets/curso/Temas/audio/Podcast1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
