@@ -328,7 +328,7 @@
         .tarjeta.p-4(style="background-color: #283760; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
-              texto="Pódcast"
+              texto="Tipos de empresas en Colombia y su clasificación"
               :audio="require('@/assets/curso/Temas/audio/Podcast1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
