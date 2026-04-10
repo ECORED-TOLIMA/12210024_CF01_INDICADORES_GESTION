@@ -301,7 +301,7 @@
               figure
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-3 #[b Empresas públicas:] son aquellas que pertenecen al Estado. Se las seguirá considerando públicas si el 51 % de sus acciones son propiedad del sector público. El Estado toma la decisión de iniciar la empresa y debe establecer sus objetivos para luego controlar su actividad
+              p.mb-3 #[b Empresas públicas:] son aquellas que pertenecen al Estado. Se las seguirá considerando públicas si el 51 % de sus acciones son propiedad del sector público. El Estado toma la decisión de iniciar la empresa y debe establecer sus objetivos para luego controlar su actividad.
           .row.mb-0
             .col-auto
               figure
@@ -406,12 +406,13 @@
     
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Tabla 1.
-      span Evolución cronológica del derecho a la movilidad para personas con discapacidad física
+      span Clasificación de empresas en Colombia por ingresos en UVT, año 2026.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-10
         .tabla-a.color-acento-contenido
           table
+            caption Fuente: Bancoldex (s.f.)
             thead
               tr
                 th Clasificación

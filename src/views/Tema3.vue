@@ -44,7 +44,7 @@
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Claridad:] define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
+              p.mb-0 #[b Claridad:] deben ser comprensibles por todo el equipo de trabajo en la empresa, evitando tecnicismos excesivos para su implementación.
         
           .row.mb-4
             .col-auto
@@ -62,13 +62,13 @@
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Precisión:] el indicador debe evaluar con exactitud lo que se propone medir, considerando tanto los aspectos internos del proceso como la retroalimentación de los clientes, para alinear los resultados con las necesidades de ambas partes
+              p.mb-0 #[b Precisión:] el indicador debe evaluar con exactitud lo que se propone medir, considerando tanto los aspectos internos del proceso como la retroalimentación de los clientes, para alinear los resultados con las necesidades de ambas partes.
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Validez:] el indicador debe estar alineado con los objetivos y las necesidades actuales de la organización, asegurando su pertinencia y contribución a los resultados esperados
+              p.mb-0 #[b Validez:] el indicador debe estar alineado con los objetivos y las necesidades actuales de la organización, asegurando su pertinencia y contribución a los resultados esperados.
           
           .row.mb-4
             .col-auto
@@ -258,7 +258,7 @@
                     .col-auto
                       img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
                     .col
-                      p.mb-0 #[b Propósito:] la métrica registra datos; el indicador los interpreta para orientar decisiones estratégicas
+                      p.mb-0 #[b Propósito:] la métrica registra datos; el indicador los interpreta para orientar decisiones estratégicas.
                 
                   .row.mb-2
                     .col-auto

@@ -29,9 +29,9 @@
             p(numero="A" titulo="Análisis del Entorno") El análisis del entorno comprende el estudio interno y externo de la organización, donde se evalúan factores como la competencia, la economía, la tecnología y las políticas, mediante herramientas como el FODA o el PESTEL, con el fin de identificar oportunidades y amenazas.
             p(numero="B" titulo="Definir la dirección estratégica") Corresponde a dar dirección a la organización, definiendo con claridad la proyección que se espera alcanzar en un período de tiempo determinado, condensada en la visión, la misión y los objetivos organizacionales.
             p(numero="C" titulo="Establecer objetivos estratégicos y metas") Con base en el direccionamiento estratégico, la organización establece responsables, estrategias, tiempos y recursos para hacer posible la gestión orientada a la proyección estratégica.
-            p(numero="D" titulo="Determinar los objetivos por área o departamento") Con base en la planeación estratégica, la organización desagrega los objetivos, los cuales son delegados por áreas o departamentos hasta llegar a la definición de actividades.
+            p(numero="D" titulo="Determinar los objetivos por área o departamento") Con base en la planeación estratégica, la organización desagrega los objetivos, los cuales son delegados por áreas o departamentos hasta llegar a la definición de actividades, que es la mínima expresión del proceso de planeación y que serán consignadas en el plan de acción.
             p(numero="E" titulo="Gestionar y monitorear el desempeño organizacional") Corresponde a implementar acciones, operaciones e indicadores para supervisar la ejecución de la estrategia, apoyándose en un cuadro de mando integral.
-            p(numero="F" titulo="Seguimiento al plan estratégico") Comprende reuniones y revisiones periódicas para evaluar resultados, identificar obstáculos o desviaciones y ajustar la planeación según los cambios del entorno.
+            p(numero="F" titulo="Seguimiento al plan estratégico") Comprende reuniones y revisiones periódicas para evaluar resultados, identificar obstáculos o desviaciones y ajustar la planeación según los cambios del entorno. Este seguimiento es una tarea constante en el desempeño organizacional.
         .col-7.col-lg-3
           figure
             img(src="@/assets/curso/Temas/tema2/img3.png", alt="Imagen decorativa")
@@ -108,7 +108,7 @@
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Visión:] 
+                p.mb-0 #[b Visión] 
                 | Representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
             
             .row.mb-4
@@ -302,7 +302,7 @@
           .col-md-6.mb-4.mb-md-0
             p Son metas específicas, medibles y de corto plazo establecidas como inmediatas que pueden ser diarias, semanales, mensuales, establecidas por la gerencia media para mejorar la eficiencia, productividad y rendimiento constante de una organización. Sus características son:
             ul.lista-ul
-              li #[b • Medibles:] utilizan métricas claras para determinar el nivel de logro, cuantificando resultados como porcentaje, tiempo o cantidad.
+              li #[b • Medibles y específicos:] utilizan métricas claras para determinar el nivel de logro, cuantificando resultados como porcentaje, tiempo o cantidad.
               li #[b • Corto plazo:] se enfocan en alcanzar metas dentro de un periodo inmediato.
               li #[b • Orientados a la acción:] desglosan las metas estratégicas en tareas factibles y delegables a equipos o departamentos.
               li #[b • Viables y realistas:] deben ser alcanzables considerando los recursos humanos, técnicos y presupuesto disponibles.
