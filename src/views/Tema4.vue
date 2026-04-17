@@ -13,7 +13,6 @@
       .bloque-texto-g__texto.p-4
         p El diseño de indicadores de gestión es el proceso mediante el cual la organización construye los instrumentos de medición necesarios para evaluar su desempeño frente a los objetivos definidos. Este proceso exige que cada indicador esté directamente vinculado con un objetivo estratégico, táctico u operativo, garantizando que la información generada sea pertinente, confiable y útil para la toma de decisiones. Su estructura se basa en la relación entre la acción, el objeto de medición y el contexto, lo que permite monitorear el avance de los objetivos organizacionales mediante datos objetivos, verificables y comparables en el tiempo.
     .row.justify-content-center.align-items-center.mb-4
-
       .col-lg-9
         .row.justify-content-center.mb-3
           .col-lg-12
@@ -80,35 +79,35 @@
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Identificar el objetivo] 
+              p.mb-0 #[b Identificar el objetivo]: 
               | Se define la meta que se quiere alcanzar, asegurando que sea clara, medible y que cuente con un marco de tiempo determinado. 
         
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Definir la intención de medición] 
+              p.mb-0 #[b Definir la intención de medición]:
               | Se determina qué aspecto del objetivo se medirá, ya sea en términos de cantidad, calidad o tiempo, según las necesidades del proceso. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Formular el indicador]  
+              p.mb-0 #[b Formular el indicador]:
               | Se construye una fórmula de cálculo clara, como el porcentaje de cobertura o la tasa de variación. El indicador puede expresar una relación entre lo real y lo esperado, o formularse como una afirmación en el caso de los indicadores cualitativos. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Establecer la línea de base y la meta] 
+              p.mb-0 #[b Establecer la línea de base y la meta]:
               | Se define el punto de partida del proceso y el nivel de desempeño que se desea alcanzar en el período establecido. 
           
           .row.mb-4
             .col-auto
               img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
             .col
-              p.mb-0 #[b Definir las fuentes de información y la periodicidad] 
+              p.mb-0 #[b Definir las fuentes de información y la periodicidad]:
               | Se especifica el origen de los datos necesarios para calcular el indicador y la frecuencia con que se realizará la medición: mensual, trimestral o anual.
     .row.justify-content-center.align-items-center.mb-5
       .col-3.col-lg-3.mb-3.mb-lg-0
@@ -152,12 +151,12 @@
           ImagenInfografica.color-primario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/Temas/tema4/img14.svg', alt='Infografía de matriz RACI')
-                figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www.funcionpublica.gov.co/documents/d/quest/guia-para-la-construccion-y-analisis-de-indicadores-de-gestion-version-4-mayo-2018-pdf?download=true
+                img(src='@/assets/curso/Temas/tema4/img14.svg', alt='Figura 4. Estructura de indicadores y ejemplos. Diagrama de la estructura de un indicador de gestión, conformado por un sujeto más un verbo en participio pasado, ilustrado con seis ejemplos de indicadores aplicados al sector público colombiano.')
+                figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www1.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/34220860
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/Temas/tema4/img14_1.png', alt='Matriz RACI para dispositivos móviles')
-            figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www.funcionpublica.gov.co/documents/d/quest/guia-para-la-construccion-y-analisis-de-indicadores-de-gestion-version-4-mayo-2018-pdf?download=true
+            img(src='@/assets/curso/Temas/tema4/img14_1.png', alt='Figura 4. Estructura de indicadores y ejemplos. Diagrama de la estructura de un indicador de gestión, conformado por un sujeto más un verbo en participio pasado, ilustrado con seis ejemplos de indicadores aplicados al sector público colombiano.')
+            figcaption Nota. Tomado de Guía para la construcción y análisis de indicadores de gestión (p. 52), de Función Pública (2018), https://www1.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/34220860
     p.mb-4 De acuerdo con la figura anterior para un diseño apropiado de indicadores se hace necesario tener en cuenta lo siguiente:
     .tarjeta--fondo5.px-5
       .row.justify-content-center.mb-5

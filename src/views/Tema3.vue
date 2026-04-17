@@ -166,28 +166,23 @@
           figure
             img(src="@/assets/curso/Temas/tema3/img14.png", alt="Imagen decorativa")
         .col-lg-8
-          p.mb-4 Esta clasificación distingue los indicadores según la forma en que expresan y cuantifican la información recopilada. Entre los principales se encuentran:
+          p Esta clasificación distingue los indicadores según la forma en que expresan y cuantifican la información recopilada. Entre los principales se encuentran:
           .row.justify-content-center
-            .col-11.col-md-7.col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
               .tarjeta-avatar
                 img(src='@/assets/curso/Temas/tema3/img15.png' alt='AvatarTop')
-                .tarjeta.color-primario.shadow
-                  .p-4
-                    .row.justify-content-center.mb-3
-                      .col-auto
-                        .py-2.px-1
-                          p.mb-0 #[b Indicadores cuantitativos]
-                    p.text-center.mb-0 se basan en números y datos objetivos.
-            .col-11.col-md-7.col-lg-5(data-aos="fade-left")
+                .tarjeta.color-primario.w-100
+                  .text-white.p-4
+                    h5.text-center Indicadores cuantitativos
+                    p.mb-0 Se basan en números y datos objetivos.
+              
+            .col-lg-5(data-aos="fade-left")
               .tarjeta-avatar
                 img(src='@/assets/curso/Temas/tema3/img16.png' alt='AvatarTop')
                 .tarjeta.color-primario.shadow
-                  .p-4
-                    .row.justify-content-center.mb-3
-                      .col-auto
-                        .py-2.px-1
-                          p.mb-0 #[b Indicadores cualitativos]
-                    p.text-center.mb-0 miden percepciones, opiniones o características que no se expresan numéricamente.
+                  .text-white.p-4
+                    h5.text-center Indicadores cualitativos
+                    p.mb-0 Miden percepciones, opiniones o características que no se expresan numéricamente.
     p.mb-4 Además de las clasificaciones anteriores, existen otras categorías de indicadores que complementan la medición organizacional y permiten obtener una visión más integral del desempeño de la empresa. A continuación, se presentan las más utilizadas en la gestión organizacional:
     .row.justify-content-center.align-items-stretch
       //- Tarjeta 1

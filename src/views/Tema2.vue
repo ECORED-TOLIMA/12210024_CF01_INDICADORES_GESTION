@@ -22,7 +22,7 @@
                       img(src="@/assets/curso/Temas/tema2/img2.png" alt="Icono rendimiento")
                   .col-12.col-md-11
                     p.mb-0 En este proceso se establecen los objetivos a mediano y largo plazo de una organización, se definen las acciones concretas para alcanzarlos y se evalúa el impacto en relación con las metas definidas. Esta proyección organizacional en el tiempo corresponde a los objetivos estratégicos que son desglosados en diferentes niveles con el fin de que sean monitoreados, medidos y alcanzados. 
-      p.mb-4 A continuación, se presenta el proceso de planeación estratégica desagregado en los pasos secuenciales a llevar a cabo con el din de realizar una proyección organizacional pertinente.
+      p.mb-4 A continuación, se presenta el proceso de planeación estratégica desagregado en los pasos secuenciales a llevar a cabo con el fin de realizar una proyección organizacional pertinente.
       .row.justify-content-center.mb-5
         .col-lg-7
           LineaTiempoD.color-secundario
@@ -101,20 +101,6 @@
               .col-auto
                 img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
               .col
-                p.mb-0 #[b Misión] 
-                | Define la razón de ser de la organización: quiénes son, qué hacen y cuál es su propósito fundamental dentro del entorno económico y social en el que opera.
-          
-            .row.mb-4
-              .col-auto
-                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-              .col
-                p.mb-0 #[b Visión] 
-                | Representa la proyección que la organización desea alcanzar en un futuro determinado, orientando sus esfuerzos y decisiones hacia el logro de sus metas estratégicas.
-            
-            .row.mb-4
-              .col-auto
-                img(src='@/assets/curso/Temas/tema1/img18.png', style="width: 20px")
-              .col
                 p.mb-0 #[b Análisis FODA] 
                 | Herramienta estratégica que permite identificar las fortalezas y debilidades internas de la organización, así como las oportunidades y amenazas del entorno externo.
             
@@ -180,11 +166,11 @@
           ImagenInfografica.color-primario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/Temas/tema2/img13.png', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/Temas/tema2/img13.svg', alt='Figura 2. Componentes del diagnóstico estratégico FODA. Diagrama de la matriz FODA organizado en cuatro cuadrantes simétricos alrededor de un círculo central con la etiqueta "Matriz FODA". Los cuadrantes superiores corresponden a Fortaleza y Debilidad, y los inferiores a Oportunidad y Amenaza. Cada cuadrante contiene líneas de texto que describen los factores internos y externos que inciden en el desempeño organizacional. La disposición visual permite distinguir los factores positivos de los negativos dentro del diagnóstico estratégico. La figura ilustra de forma integrada los componentes fundamentales de la planeación organizacional.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/Temas/tema2/img13_1.png', alt='Matriz RACI para dispositivos móviles')
-    .row.justify-content-center.align-items-center.mb-5
+            img(src='@/assets/curso/Temas/tema2/img13_1.svg', alt='Figura 2. Componentes del diagnóstico estratégico FODA. Diagrama de la matriz FODA organizado en cuatro cuadrantes simétricos alrededor de un círculo central con la etiqueta "Matriz FODA". Los cuadrantes superiores corresponden a Fortaleza y Debilidad, y los inferiores a Oportunidad y Amenaza. Cada cuadrante contiene líneas de texto que describen los factores internos y externos que inciden en el desempeño organizacional. La disposición visual permite distinguir los factores positivos de los negativos dentro del diagnóstico estratégico. La figura ilustra de forma integrada los componentes fundamentales de la planeación organizacional.')
+    .row.justify-content-center.align-items-center.mb-4
       .col-4.col-lg-4.mb-4.mb-lg-0
         figure
           img.mx-auto.d-block(src="@/assets/curso/Temas/tema2/img14.png" alt="Imagen modelo SECI")
@@ -196,23 +182,24 @@
       h5 Implementación del FODA
     p.mb-4 La implementación de este diagnóstico estratégico comienza con la participación de los integrantes de la organización, mediante técnicas que permitan recopilar información objetiva y pertinente sobre su situación real. De este modo, se elabora un diagnóstico integral de la empresa desde los aspectos internos y externos, positivos y negativos, que tienen incidencia directa en su desempeño.
     p.mb-3 Con la información recopilada, estructurada y validada en equipo, se procede a clasificarla en la Matriz FODA implementada, como se presenta a continuación:
+    
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Tabla 2.
       span Matriz FODA implementada
-    .row.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-10
         .tabla-a.color-acento-contenido
           table
             thead
               tr
-                th.bg-naranja.text-white.text-center.h3 Matriz FODA
+                th.bg-naranja.text-center Matriz FODA
                 th.bg-crema-oscuro
                   p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas
                 th.bg-crema-oscuro
                   p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las
             tbody
               tr
-                th.bg-crema-claro.text-start
+                th.bg-crema-claro
                   p.mb-0 #[b Factores externos:] oportunidades. Factores del entorno que pueden
                 td.bg-white
                   b Estrategia FO (Ofensiva): 
@@ -221,7 +208,7 @@
                   b Estrategia DO (Adaptativa): 
                   | superar debilidades aprovechando
               tr
-                th.bg-crema-claro.text-start
+                th.bg-crema-claro
                   p.mb-0 #[b Factores externos:] amenazas. Factores del entorno que pueden perjudicar el
                 td.bg-white
                   b Estrategia FA (Defensiva): 
@@ -231,7 +218,7 @@
                   | reducir debilidades y evitar amenazas.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
-        p.mb-3 Como se muestra en la Tabla 2, a partir del análisis objetivo de los factores internos y externos se definen las estrategias FO, DO, FA y DA, determinando los caminos de acción para superar debilidades, contrarrestar amenazas, potenciar fortalezas y aprovechar oportunidades, lo que genera mayor valor organizacional en la evaluación de los resultados obtenidos.
+        p.mb-3 A partir del análisis objetivo de los factores internos y externos se definen las estrategias FO, DO, FA y DA, determinando los caminos de acción para superar debilidades, contrarrestar amenazas, potenciar fortalezas y aprovechar oportunidades, lo que genera mayor valor organizacional en la evaluación de los resultados obtenidos.
         .row.justify-content-center
           .col-lg-12
             .cajon.color-acento-botones.p-4.col(style="background-color: #91B9D1;")

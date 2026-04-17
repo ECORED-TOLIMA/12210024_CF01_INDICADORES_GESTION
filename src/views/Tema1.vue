@@ -161,6 +161,7 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta-verde").mb-5
       .row(titulo="Según su tamaño")
         .col-12
+          p El tamaño de una empresa se determina según el número de trabajadores que la integran: 
           .row.mb-0
             .col-auto
               figure
@@ -491,7 +492,7 @@
                 img(src='@/assets/curso/Temas/tema1/img32.svg', alt='Texto que describa la imagen')
 
           h5.text-center Procesos
-          p La GpR transforma la administración tradicional al incorporar planificación estratégica, presupuesto por resultados y monitoreo y evaluación continua de la gestión
+          p La GpR transforma la administración tradicional al incorporar planificación estratégica, presupuesto por resultados y monitoreo y evaluación continua de la gestión.
 
       .col-sm-6.col-lg-3
         .tarjeta--boton.color-secundario.p-4.h-100
