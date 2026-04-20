@@ -194,9 +194,9 @@
               tr
                 th.bg-naranja.text-center Matriz FODA
                 th.bg-crema-oscuro
-                  p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas
+                  p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas competitivas y recursos superiores
                 th.bg-crema-oscuro
-                  p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las
+                  p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las desventajas internas
             tbody
               tr
                 th.bg-crema-claro
