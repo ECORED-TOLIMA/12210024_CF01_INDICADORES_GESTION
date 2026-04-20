@@ -521,5 +521,14 @@ export default {
   },
 }
 </script>
+<style lang="sass">
+.slyder-a
+  &__tipo-b
+    .slyder-a__btn--atrs,
+    .slyder-a__btn--sigt
+      flex: 0 0 50px
 
-<style lang="sass"></style>
+      &.is-hidden
+        visibility: hidden
+        pointer-events: none
+</style>
