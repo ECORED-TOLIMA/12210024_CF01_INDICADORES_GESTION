@@ -200,7 +200,7 @@
             tbody
               tr
                 th.bg-crema-claro
-                  p.mb-0 #[b Factores externos:] oportunidades. Factores del entorno que pueden
+                  p.mb-0 #[b Factores externos:] oportunidades. Factores del entorno que pueden aprovecharse.
                 td.bg-white
                   b Estrategia FO (Ofensiva): 
                   | usar fortalezas para aprovechar oportunidades.
@@ -209,7 +209,7 @@
                   | superar debilidades aprovechando
               tr
                 th.bg-crema-claro
-                  p.mb-0 #[b Factores externos:] amenazas. Factores del entorno que pueden perjudicar el
+                  p.mb-0 #[b Factores externos:] amenazas. Factores del entorno que pueden perjudicar el desempeño.
                 td.bg-white
                   b Estrategia FA (Defensiva): 
                   | usar fortalezas para mitigar amenazas.
