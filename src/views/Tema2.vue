@@ -194,9 +194,9 @@
               tr
                 th.bg-naranja.text-center Matriz FODA
                 th.bg-crema-oscuro
-                  p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas competitivas y recursos superiores
+                  p.mb-0 #[b Factores internos:] fortalezas. Capacidades especiales, ventajas competitivas y recursos superiores.
                 th.bg-crema-oscuro
-                  p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las desventajas internas
+                  p.mb-0 #[b Factores internos:] debilidades. Factores que limitan el desempeño y las desventajas internas.
             tbody
               tr
                 th.bg-crema-claro
@@ -206,7 +206,7 @@
                   | usar fortalezas para aprovechar oportunidades.
                 td.bg-white
                   b Estrategia DO (Adaptativa): 
-                  | superar debilidades aprovechando
+                  | superar debilidades aprovechando.
               tr
                 th.bg-crema-claro
                   p.mb-0 #[b Factores externos:] amenazas. Factores del entorno que pueden perjudicar el desempeño.
