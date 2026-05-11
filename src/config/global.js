@@ -255,9 +255,9 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Bancoldex (s.f.). Quienes somos – Clasificación de las empresas en Colombia.',
-      link: 'https://www.bancoldex.com/',
+      referencia: 'Bancoldex (s. f.). Clasificación de empresas en Colombia.',
+      link:
+        'https://www.bancoldex.com/sobre-bancoldex/quienes-somos/estrategia-corporativa/clasificacion-de-empresas-en-colombia',
     },
     {
       referencia:
